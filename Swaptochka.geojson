@@ -1,0 +1,8378 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": {}
+      },
+      "properties": {
+        "Id": "Id",
+        "name": "name",
+        "dateOfFind": "dateOfFind",
+        "type": "type",
+        "area": "area",
+        "dateOfLi": "dateOfLi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.212890625,
+          60.4941673278808
+        ]
+      },
+      "properties": {
+        "Id": "657",
+        "name": "Захламление",
+        "dateOfFind": "6.05.2024",
+        "type": "Строительные",
+        "area": "5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4619140625,
+          60.600280761718
+        ]
+      },
+      "properties": {
+        "Id": "728",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Бытовые",
+        "area": "0",
+        "dateOfLi": "29.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.4824981689453,
+          61.114440917968
+        ]
+      },
+      "properties": {
+        "Id": "617",
+        "name": "Захламление",
+        "dateOfFind": "24.10.2018",
+        "type": "Промышленные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.6461372375488,
+          62.8914184570312
+        ]
+      },
+      "properties": {
+        "Id": "390",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "26.2.2024",
+        "type": "Бытовые",
+        "area": "90",
+        "dateOfLi": "29.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.5676116943359,
+          60.188362121582
+        ]
+      },
+      "properties": {
+        "Id": "802",
+        "name": "Захламление",
+        "dateOfFind": "6.06.2024",
+        "type": "Строительные",
+        "area": "1300000",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.913887023925,
+          64.6640853881835
+        ]
+      },
+      "properties": {
+        "Id": "856",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "4",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.6204147338867,
+          61.492095947265
+        ]
+      },
+      "properties": {
+        "Id": "379",
+        "name": "Захламление",
+        "dateOfFind": "14.12.2023",
+        "type": "Бытовые",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.5705490112304,
+          61.3596115112304
+        ]
+      },
+      "properties": {
+        "Id": "538",
+        "name": "Захламление",
+        "dateOfFind": "12.9.2023",
+        "type": "Строительные",
+        "area": "0,9",
+        "dateOfLi": "21.6.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8726005554199,
+          61.2031440734863
+        ]
+      },
+      "properties": {
+        "Id": "418",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "17.4.2023",
+        "type": "Бытовые",
+        "area": "10",
+        "dateOfLi": "4.06.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.762939453125,
+          61.2190208435058
+        ]
+      },
+      "properties": {
+        "Id": "512",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "9.06.2017",
+        "type": "Бытовые",
+        "area": "100",
+        "dateOfLi": "9.09.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5899810791015,
+          61.971183776855
+        ]
+      },
+      "properties": {
+        "Id": "644",
+        "name": "Захламление",
+        "dateOfFind": "6.06.2024",
+        "type": "Лесопиление",
+        "area": "2",
+        "dateOfLi": "29.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6661376953125,
+          61.1091651916503
+        ]
+      },
+      "properties": {
+        "Id": "724",
+        "name": "Захламление",
+        "dateOfFind": "6.06.2024",
+        "type": "Бытовые",
+        "area": "2",
+        "dateOfLi": "25.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.429801940917,
+          61.9103202819824
+        ]
+      },
+      "properties": {
+        "Id": "488",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "16.8.2017",
+        "type": "Строительные",
+        "area": "30",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7260284423828,
+          60.1371383666992
+        ]
+      },
+      "properties": {
+        "Id": "443",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "0,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.718307495117,
+          61.979309082031
+        ]
+      },
+      "properties": {
+        "Id": "624",
+        "name": "Захламление",
+        "dateOfFind": "29.5.2020",
+        "type": "Строительные",
+        "area": "50",
+        "dateOfLi": "7.11.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7175521850585,
+          60.1416664123535
+        ]
+      },
+      "properties": {
+        "Id": "399",
+        "name": "Захламление",
+        "dateOfFind": "13.9.2023",
+        "type": "Строительные",
+        "area": "0,4",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.7683792114257,
+          61.1851654052734
+        ]
+      },
+      "properties": {
+        "Id": "550",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "25.10.2022",
+        "type": "Бытовые",
+        "area": "200",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.595458984375,
+          61.1099205017089
+        ]
+      },
+      "properties": {
+        "Id": "507",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "1.08.2023",
+        "type": "Строительные",
+        "area": "40",
+        "dateOfLi": "20.6.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.9097518920898,
+          59.5817222595214
+        ]
+      },
+      "properties": {
+        "Id": "777",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Строительные",
+        "area": "0,6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8093338012695,
+          60.1282234191894
+        ]
+      },
+      "properties": {
+        "Id": "406",
+        "name": "Захламление",
+        "dateOfFind": "19.9.2023",
+        "type": "Бытовые",
+        "area": "0,1",
+        "dateOfLi": "18.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6073608398437,
+          61.741119384765
+        ]
+      },
+      "properties": {
+        "Id": "689",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8074722290039,
+          61
+        ]
+      },
+      "properties": {
+        "Id": "676",
+        "name": "Захламление",
+        "dateOfFind": "11.7.2024",
+        "type": "Бытовые",
+        "area": "0,9",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1143608093261,
+          64.7912216186523
+        ]
+      },
+      "properties": {
+        "Id": "797",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.9583587646484,
+          59.3431892395019
+        ]
+      },
+      "properties": {
+        "Id": "463",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "6.03.2012",
+        "type": "Строительные",
+        "area": "120",
+        "dateOfLi": "12.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6529998779296,
+          61.1168327331542
+        ]
+      },
+      "properties": {
+        "Id": "719",
+        "name": "Захламление",
+        "dateOfFind": "14.6.2024",
+        "type": "Лесопиление",
+        "area": "5",
+        "dateOfLi": "25.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1045570373535,
+          64.7486114501953
+        ]
+      },
+      "properties": {
+        "Id": "839",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2025",
+        "type": "Строительные",
+        "area": "5,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.1363372802734,
+          61.5960083007812
+        ]
+      },
+      "properties": {
+        "Id": "641",
+        "name": "Захламление",
+        "dateOfFind": "3.06.2024",
+        "type": "Бытовые",
+        "area": "260",
+        "dateOfLi": "12.8.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.159606933593,
+          61.9254302978515
+        ]
+      },
+      "properties": {
+        "Id": "605",
+        "name": "Захламление",
+        "dateOfFind": "6.09.2023",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8621711730957,
+          61.18382
+        ]
+      },
+      "properties": {
+        "Id": "551",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "22.5.2023",
+        "type": "Лесопиление",
+        "area": "5",
+        "dateOfLi": "30.8.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.8884735107421,
+          59.5900268554687
+        ]
+      },
+      "properties": {
+        "Id": "767",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Строительные",
+        "area": "1,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7173080444335,
+          60.1417236328125
+        ]
+      },
+      "properties": {
+        "Id": "398",
+        "name": "Захламление",
+        "dateOfFind": "13.9.2023",
+        "type": "Строительные",
+        "area": "0,15",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7330856323242,
+          60.1139183044433
+        ]
+      },
+      "properties": {
+        "Id": "562",
+        "name": "Захламление",
+        "dateOfFind": "12.9.2023",
+        "type": "Промышленные",
+        "area": "0,9",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8163185119628,
+          61.21146
+        ]
+      },
+      "properties": {
+        "Id": "462",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "23.5.2024",
+        "type": "Лесопиление",
+        "area": "2900",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7308349609375,
+          60.1180572509765
+        ]
+      },
+      "properties": {
+        "Id": "555",
+        "name": "Захламление",
+        "dateOfFind": "12.9.2023",
+        "type": "Строительные",
+        "area": "0,2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.4997787475585,
+          60.9963340759277
+        ]
+      },
+      "properties": {
+        "Id": "626",
+        "name": "Захламление",
+        "dateOfFind": "21.10.2020",
+        "type": "Строительные",
+        "area": "5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8164443969726,
+          61.1430549621582
+        ]
+      },
+      "properties": {
+        "Id": "679",
+        "name": "Захламление",
+        "dateOfFind": "11.7.2024",
+        "type": "Строительные",
+        "area": "0,225",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8539390563964,
+          61.2053413391113
+        ]
+      },
+      "properties": {
+        "Id": "423",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "21.12.2017",
+        "type": "Строительные",
+        "area": "90",
+        "dateOfLi": "20.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1094436645507,
+          64.8013305664062
+        ]
+      },
+      "properties": {
+        "Id": "786",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.578269958496,
+          61.3585815429
+        ]
+      },
+      "properties": {
+        "Id": "574",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "31.7.2018",
+        "type": "Строительные",
+        "area": "27,5",
+        "dateOfLi": "5.09.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.9963989257812,
+          61.9224014282226
+        ]
+      },
+      "properties": {
+        "Id": "494",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "28.5.2014",
+        "type": "Бытовые",
+        "area": "370",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7462463378906,
+          60.1075286865234
+        ]
+      },
+      "properties": {
+        "Id": "414",
+        "name": "Захламление",
+        "dateOfFind": "22.5.2024",
+        "type": "Лесопиление",
+        "area": "22",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.5456924438476,
+          60.19380569458
+        ]
+      },
+      "properties": {
+        "Id": "806",
+        "name": "Захламление",
+        "dateOfFind": "6.06.2024",
+        "type": "Бытовые",
+        "area": "30000",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67045.8125,
+          621610.6875
+        ]
+      },
+      "properties": {
+        "Id": "763",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "22.10.2024",
+        "type": "Бытовые",
+        "area": "377",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1105003356933,
+          64.7039184570312
+        ]
+      },
+      "properties": {
+        "Id": "862",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Бытовые",
+        "area": "5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7236404418945,
+          60.1414718627929
+        ]
+      },
+      "properties": {
+        "Id": "751",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "18.10.2024",
+        "type": "Бытовые",
+        "area": "400",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7910003662109,
+          60.1349449157714
+        ]
+      },
+      "properties": {
+        "Id": "408",
+        "name": "Захламление",
+        "dateOfFind": "19.9.2023",
+        "type": "Строительные",
+        "area": "1,2",
+        "dateOfLi": "18.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": {}
+      },
+      "properties": {
+        "Id": "749",
+        "name": "Захламление",
+        "dateOfFind": "13.9.2023",
+        "type": "Бытовые",
+        "area": "2",
+        "dateOfLi": "6.06.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1088333129882,
+          64.8026123046875
+        ]
+      },
+      "properties": {
+        "Id": "816",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Бытовые",
+        "area": "5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.9583587646484,
+          59.3431892395019
+        ]
+      },
+      "properties": {
+        "Id": "477",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "1.01.1998",
+        "type": "Строительные",
+        "area": "5000",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.6735534667968,
+          60.1551094055175
+        ]
+      },
+      "properties": {
+        "Id": "612",
+        "name": "ЗахламлениеN60°9'18.4\"E64°40'24.8\"",
+        "dateOfFind": "19.9.2023",
+        "type": "Лесопиление",
+        "area": "1",
+        "dateOfLi": "14.6.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4490280151367,
+          60.566673278808
+        ]
+      },
+      "properties": {
+        "Id": "694",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Бытовые",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5718688964843,
+          61.953063964843
+        ]
+      },
+      "properties": {
+        "Id": "747",
+        "name": "Захламление",
+        "dateOfFind": "20.6.2024",
+        "type": "Строительные",
+        "area": "4",
+        "dateOfLi": "8.08.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.6977767944335,
+          60.1650009155273
+        ]
+      },
+      "properties": {
+        "Id": "745",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": "29.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8163299560546,
+          60.1159172058105
+        ]
+      },
+      "properties": {
+        "Id": "468",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Промышленные",
+        "area": "0,8",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.732666015625,
+          60.1118049621582
+        ]
+      },
+      "properties": {
+        "Id": "559",
+        "name": "Захламление",
+        "dateOfFind": "31.5.2024",
+        "type": "Лесопиление",
+        "area": "0,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.395317077636,
+          61.9134788513183
+        ]
+      },
+      "properties": {
+        "Id": "490",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "16.8.2017",
+        "type": "Строительные",
+        "area": "10",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1086654663085,
+          64.7990036010742
+        ]
+      },
+      "properties": {
+        "Id": "789",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Промышленные",
+        "area": "4",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.72129,
+          60.97696
+        ]
+      },
+      "properties": {
+        "Id": "867",
+        "name": "Захламление",
+        "dateOfFind": "1.11.2024",
+        "type": "Строительные",
+        "area": "20",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1087760925292,
+          64.8047256469726
+        ]
+      },
+      "properties": {
+        "Id": "812",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Промышленные",
+        "area": "6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8470840454101,
+          60.7278900146484
+        ]
+      },
+      "properties": {
+        "Id": "658",
+        "name": "Захламление",
+        "dateOfFind": "6.05.2024",
+        "type": "Промышленные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1101684570312,
+          64.7165832519531
+        ]
+      },
+      "properties": {
+        "Id": "846",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "1,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.9075012207031,
+          59.5922241210937
+        ]
+      },
+      "properties": {
+        "Id": "771",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Строительные",
+        "area": "0,8",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.9331970214843,
+          61.9460449218
+        ]
+      },
+      "properties": {
+        "Id": "684",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Лесопиление",
+        "area": "0,6",
+        "dateOfLi": "3.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.9103088378906,
+          59.5824432373046
+        ]
+      },
+      "properties": {
+        "Id": "775",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Строительные",
+        "area": "1,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.108337402343,
+          61.1445999145507
+        ]
+      },
+      "properties": {
+        "Id": "582",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "16.10.2023",
+        "type": "Бытовые",
+        "area": "200",
+        "dateOfLi": "3.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.416793823242,
+          61.9145393371582
+        ]
+      },
+      "properties": {
+        "Id": "489",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "16.8.2017",
+        "type": "Строительные",
+        "area": "10",
+        "dateOfLi": "30.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7458877563476,
+          60.1081657409667
+        ]
+      },
+      "properties": {
+        "Id": "412",
+        "name": "Захламление",
+        "dateOfFind": "13.9.2023",
+        "type": "Лесопиление",
+        "area": "0,6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4705581665039,
+          60.788879394531
+        ]
+      },
+      "properties": {
+        "Id": "740",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": "29.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.514068603515,
+          61.4785385131835
+        ]
+      },
+      "properties": {
+        "Id": "521",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "7.06.2017",
+        "type": "Строительные",
+        "area": "20",
+        "dateOfLi": "28.8.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7172241210937,
+          60.1417770385742
+        ]
+      },
+      "properties": {
+        "Id": "403",
+        "name": "Захламление",
+        "dateOfFind": "13.9.2023",
+        "type": "Строительные",
+        "area": "0,1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7177200317382,
+          60.1417503356933
+        ]
+      },
+      "properties": {
+        "Id": "400",
+        "name": "Захламление",
+        "dateOfFind": "13.9.2023",
+        "type": "Лесопиление",
+        "area": "0,1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1081657409667,
+          64.7338333129882
+        ]
+      },
+      "properties": {
+        "Id": "843",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Бытовые",
+        "area": "4",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8279418945312,
+          60.1254730224609
+        ]
+      },
+      "properties": {
+        "Id": "633",
+        "name": "Захламление",
+        "dateOfFind": "13.9.2023",
+        "type": "Бытовые",
+        "area": "2",
+        "dateOfLi": "1.11.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.5309410095214,
+          61.3440017700195
+        ]
+      },
+      "properties": {
+        "Id": "591",
+        "name": "Захламление",
+        "dateOfFind": "24.5.2024",
+        "type": "Бытовые",
+        "area": "4",
+        "dateOfLi": "15.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9247512817382,
+          60.9901123046875
+        ]
+      },
+      "properties": {
+        "Id": "621",
+        "name": "Захламление",
+        "dateOfFind": "1.10.2019",
+        "type": "Строительные",
+        "area": "45",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.2883,
+          61.47481
+        ]
+      },
+      "properties": {
+        "Id": "519",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "15.6.2016",
+        "type": "Строительные",
+        "area": "848",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.69038772583,
+          61.1625289916992
+        ]
+      },
+      "properties": {
+        "Id": "536",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "13.6.2017",
+        "type": "Лесопиление",
+        "area": "40",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6436080932617,
+          61.972213745117
+        ]
+      },
+      "properties": {
+        "Id": "692",
+        "name": "Захламление",
+        "dateOfFind": "28.6.2024",
+        "type": "Бытовые",
+        "area": "1,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7164154052734,
+          60.1411666870117
+        ]
+      },
+      "properties": {
+        "Id": "811",
+        "name": "Захламление",
+        "dateOfFind": "31.5.2024",
+        "type": "Бытовые",
+        "area": "2,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7320556640625,
+          60.1121673583984
+        ]
+      },
+      "properties": {
+        "Id": "635",
+        "name": "Захламление",
+        "dateOfFind": "13.9.2023",
+        "type": "Строительные",
+        "area": "0,9",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6254196166992,
+          61.1501655578613
+        ]
+      },
+      "properties": {
+        "Id": "656",
+        "name": "Захламление",
+        "dateOfFind": "16.5.2024",
+        "type": "Строительные",
+        "area": "10",
+        "dateOfLi": "5.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7264709472656,
+          60.1360816955566
+        ]
+      },
+      "properties": {
+        "Id": "434",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "0,1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.7649803161621,
+          61.2173805236816
+        ]
+      },
+      "properties": {
+        "Id": "511",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "9.06.2017",
+        "type": "Бытовые",
+        "area": "15",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.8946685791015,
+          59.5883903503417
+        ]
+      },
+      "properties": {
+        "Id": "765",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Бытовые",
+        "area": "0,8",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7314987182617,
+          60.1110000610351
+        ]
+      },
+      "properties": {
+        "Id": "557",
+        "name": "Захламление",
+        "dateOfFind": "13.9.2023",
+        "type": "Строительные",
+        "area": "0,2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7956924438476,
+          60.1328048706054
+        ]
+      },
+      "properties": {
+        "Id": "404",
+        "name": "Захламление",
+        "dateOfFind": "19.9.2023",
+        "type": "Строительные",
+        "area": "0,2",
+        "dateOfLi": "27.8.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.5220870971679,
+          60.2026939392089
+        ]
+      },
+      "properties": {
+        "Id": "804",
+        "name": "Захламление",
+        "dateOfFind": "6.06.2024",
+        "type": "Промышленные",
+        "area": "9000",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.6287193298339,
+          61.3163795471191
+        ]
+      },
+      "properties": {
+        "Id": "590",
+        "name": "Захламление",
+        "dateOfFind": "4.06.2024",
+        "type": "Лесопиление",
+        "area": "50",
+        "dateOfLi": "15.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8160247802734,
+          60.1157493591308
+        ]
+      },
+      "properties": {
+        "Id": "471",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "0,2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7214965820312,
+          60.1374435424804
+        ]
+      },
+      "properties": {
+        "Id": "455",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Лесопиление",
+        "area": "1,2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1158905029296,
+          64.731086730957
+        ]
+      },
+      "properties": {
+        "Id": "849",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "20",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4630279541015,
+          60.735282897949
+        ]
+      },
+      "properties": {
+        "Id": "709",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1090278625488,
+          64.8060302734375
+        ]
+      },
+      "properties": {
+        "Id": "810",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "8",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.3837585449218,
+          61.319408416748
+        ]
+      },
+      "properties": {
+        "Id": "542",
+        "name": "Захламление",
+        "dateOfFind": "23.5.2024",
+        "type": "Строительные",
+        "area": "0,4",
+        "dateOfLi": "11.6.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.6719512939453,
+          61.1649894714355
+        ]
+      },
+      "properties": {
+        "Id": "533",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "29.5.2024",
+        "type": "Лесопиление",
+        "area": "80",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.2869186401367,
+          61.3110542297363
+        ]
+      },
+      "properties": {
+        "Id": "381",
+        "name": "Захламление",
+        "dateOfFind": "6.10.2023",
+        "type": "Бытовые",
+        "area": "2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4803924560546,
+          60.708351135253
+        ]
+      },
+      "properties": {
+        "Id": "698",
+        "name": "Захламление",
+        "dateOfFind": "15.5.2024",
+        "type": "Бытовые",
+        "area": "0",
+        "dateOfLi": "29.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.9038925170898,
+          59.5834159851074
+        ]
+      },
+      "properties": {
+        "Id": "770",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Строительные",
+        "area": "1,6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7251358032226,
+          60.1373062133789
+        ]
+      },
+      "properties": {
+        "Id": "448",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "0,6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.865608215332,
+          61.1946792602539
+        ]
+      },
+      "properties": {
+        "Id": "430",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "5.06.2017",
+        "type": "Строительные",
+        "area": "10",
+        "dateOfLi": "4.10.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.5480499267578,
+          60.9992942810058
+        ]
+      },
+      "properties": {
+        "Id": "622",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2020",
+        "type": "Строительные",
+        "area": "256",
+        "dateOfLi": "7.11.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8113861083984,
+          60.1580848693847
+        ]
+      },
+      "properties": {
+        "Id": "793",
+        "name": "Захламление",
+        "dateOfFind": "31.5.2024",
+        "type": "Бытовые",
+        "area": "0,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.2738,
+          61.47493
+        ]
+      },
+      "properties": {
+        "Id": "520",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "15.6.2016",
+        "type": "Бытовые",
+        "area": "145",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.54016113281,
+          61.940990447998
+        ]
+      },
+      "properties": {
+        "Id": "499",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "20.5.2021",
+        "type": "Бытовые",
+        "area": "50",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.177192687988,
+          61.930320739746
+        ]
+      },
+      "properties": {
+        "Id": "484",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "8.06.2017",
+        "type": "Строительные",
+        "area": "7,9",
+        "dateOfLi": "25.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.5741004943847,
+          61.3790702819824
+        ]
+      },
+      "properties": {
+        "Id": "415",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "12.9.2023",
+        "type": "Лесопиление",
+        "area": "5",
+        "dateOfLi": "21.6.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.5095062255859,
+          61.6766014099121
+        ]
+      },
+      "properties": {
+        "Id": "433",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "10.6.2015",
+        "type": "Промышленные",
+        "area": "80",
+        "dateOfLi": "17.5.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7117462158203,
+          60.1370010375976
+        ]
+      },
+      "properties": {
+        "Id": "636",
+        "name": "Захламление",
+        "dateOfFind": "13.9.2023",
+        "type": "Промышленные",
+        "area": "1,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.120010375976,
+          61.9370994567871
+        ]
+      },
+      "properties": {
+        "Id": "597",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "18.8.2023",
+        "type": "Строительные",
+        "area": "1,8",
+        "dateOfLi": "13.6.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.6924400329589,
+          61.1691093444824
+        ]
+      },
+      "properties": {
+        "Id": "577",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "18.6.2012",
+        "type": "Бытовые",
+        "area": "45000",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.6436119079589,
+          62.891860961914
+        ]
+      },
+      "properties": {
+        "Id": "388",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "16.3.2015",
+        "type": "Строительные",
+        "area": "2700",
+        "dateOfLi": "29.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.104751586914,
+          64.767333984375
+        ]
+      },
+      "properties": {
+        "Id": "826",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "10",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.4813995361328,
+          61.132102966308
+        ]
+      },
+      "properties": {
+        "Id": "613",
+        "name": "Захламление",
+        "dateOfFind": "24.10.2018",
+        "type": "Промышленные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.748119354248,
+          61.2198982238769
+        ]
+      },
+      "properties": {
+        "Id": "537",
+        "name": "Захламление",
+        "dateOfFind": "16.5.2023",
+        "type": "Промышленные",
+        "area": "0,3",
+        "dateOfLi": "11.10.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1091957092285,
+          64.8066940307617
+        ]
+      },
+      "properties": {
+        "Id": "799",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Промышленные",
+        "area": "15",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7261657714843,
+          60.1368331909179
+        ]
+      },
+      "properties": {
+        "Id": "441",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Промышленные",
+        "area": "0,2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.9254684448242,
+          59.580638885498
+        ]
+      },
+      "properties": {
+        "Id": "638",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "1.01.2024",
+        "type": "Строительные",
+        "area": "30",
+        "dateOfLi": "12.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1090545654296,
+          64.7992477416992
+        ]
+      },
+      "properties": {
+        "Id": "791",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Промышленные",
+        "area": "1,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.6733627319335,
+          60.1551666259765
+        ]
+      },
+      "properties": {
+        "Id": "608",
+        "name": "Захламление",
+        "dateOfFind": "19.9.2023",
+        "type": "Промышленные",
+        "area": "2",
+        "dateOfLi": "14.6.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7270812988281,
+          60.1364707946777
+        ]
+      },
+      "properties": {
+        "Id": "447",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "0,8",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8171920776367,
+          60.1163597106933
+        ]
+      },
+      "properties": {
+        "Id": "476",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Промышленные",
+        "area": "0,8",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.4411926269531,
+          59.6591987609863
+        ]
+      },
+      "properties": {
+        "Id": "796",
+        "name": "Захламление",
+        "dateOfFind": "14.3.2025",
+        "type": "Промышленные",
+        "area": "310",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          61.35685,
+          63.58306
+        ]
+      },
+      "properties": {
+        "Id": "524",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "27.5.2024",
+        "type": "Строительные",
+        "area": "70",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.528564453125,
+          61.4658393859863
+        ]
+      },
+      "properties": {
+        "Id": "522",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "26.7.2017",
+        "type": "Промышленные",
+        "area": "2",
+        "dateOfLi": "9.10.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8296928405761,
+          61.2000274658203
+        ]
+      },
+      "properties": {
+        "Id": "545",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "6.06.2019",
+        "type": "Промышленные",
+        "area": "50",
+        "dateOfLi": "30.8.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8173599243164,
+          60.1162796020507
+        ]
+      },
+      "properties": {
+        "Id": "475",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "0,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.6735000610351,
+          61.162498474121
+        ]
+      },
+      "properties": {
+        "Id": "580",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "1.06.2011",
+        "type": "Строительные",
+        "area": "14670",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7116088867187,
+          60.1367492675781
+        ]
+      },
+      "properties": {
+        "Id": "630",
+        "name": "Захламление",
+        "dateOfFind": "13.9.2023",
+        "type": "Промышленные",
+        "area": "1,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1100540161132,
+          64.8010025024414
+        ]
+      },
+      "properties": {
+        "Id": "798",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "25",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8232116699218,
+          61.2089118957519
+        ]
+      },
+      "properties": {
+        "Id": "426",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "14.12.2017",
+        "type": "Промышленные",
+        "area": "0",
+        "dateOfLi": "30.4.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5871353149414,
+          61.932159423828
+        ]
+      },
+      "properties": {
+        "Id": "649",
+        "name": "Захламление",
+        "dateOfFind": "6.06.2024",
+        "type": "Строительные",
+        "area": "10",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7112197875976,
+          60.1370544433593
+        ]
+      },
+      "properties": {
+        "Id": "628",
+        "name": "Захламление",
+        "dateOfFind": "13.9.2023",
+        "type": "Строительные",
+        "area": "1,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.34194946289,
+          61.9473876953125
+        ]
+      },
+      "properties": {
+        "Id": "498",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "16.6.2021",
+        "type": "Строительные",
+        "area": "12",
+        "dateOfLi": "13.6.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.527976989746,
+          62.525016784667
+        ]
+      },
+      "properties": {
+        "Id": "583",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "7.09.2023",
+        "type": "Бытовые",
+        "area": "80",
+        "dateOfLi": "23.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.9280548095703,
+          59.5792236328125
+        ]
+      },
+      "properties": {
+        "Id": "780",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Бытовые",
+        "area": "2,1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8059692382812,
+          61.1406669616699
+        ]
+      },
+      "properties": {
+        "Id": "674",
+        "name": "Захламление",
+        "dateOfFind": "11.7.2024",
+        "type": "Строительные",
+        "area": "0,3",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8161926269531,
+          61.1430549621582
+        ]
+      },
+      "properties": {
+        "Id": "680",
+        "name": "Захламление",
+        "dateOfFind": "11.7.2024",
+        "type": "Промышленные",
+        "area": "10",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7138061523437,
+          60.1305847167968
+        ]
+      },
+      "properties": {
+        "Id": "824",
+        "name": "Захламление",
+        "dateOfFind": "31.5.2024",
+        "type": "Строительные",
+        "area": "0,1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.9900207519531,
+          61.9462203979492
+        ]
+      },
+      "properties": {
+        "Id": "482",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "9.06.2015",
+        "type": "Строительные",
+        "area": "100",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7219161987304,
+          60.1373901367187
+        ]
+      },
+      "properties": {
+        "Id": "453",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "0,9",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4634475708007,
+          60.774993896484
+        ]
+      },
+      "properties": {
+        "Id": "704",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Лесопиление",
+        "area": "0",
+        "dateOfLi": "29.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7169189453125,
+          60.1417770385742
+        ]
+      },
+      "properties": {
+        "Id": "809",
+        "name": "Захламление",
+        "dateOfFind": "31.5.2024",
+        "type": "Строительные",
+        "area": "7,7",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1041107177734,
+          64.783332824707
+        ]
+      },
+      "properties": {
+        "Id": "819",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6526412963867,
+          60.912780761718
+        ]
+      },
+      "properties": {
+        "Id": "711",
+        "name": "Захламление",
+        "dateOfFind": "6.06.2024",
+        "type": "Строительные",
+        "area": "1,5",
+        "dateOfLi": "19.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.10933303833,
+          64.7839202880859
+        ]
+      },
+      "properties": {
+        "Id": "822",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "1,8",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.863410949707,
+          61.194049835205
+        ]
+      },
+      "properties": {
+        "Id": "431",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "9.06.2017",
+        "type": "Бытовые",
+        "area": "20",
+        "dateOfLi": "10.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.4011077880859,
+          64.2861099243164
+        ]
+      },
+      "properties": {
+        "Id": "392",
+        "name": "Захламление",
+        "dateOfFind": "22.3.2021",
+        "type": "Промышленные",
+        "area": "40",
+        "dateOfLi": "15.1.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.9279479980468,
+          59.5792236328125
+        ]
+      },
+      "properties": {
+        "Id": "781",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Строительные",
+        "area": "1,2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7263031005859,
+          60.1371116638183
+        ]
+      },
+      "properties": {
+        "Id": "444",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Промышленные",
+        "area": "0,14",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4670867919921,
+          60.823326110839
+        ]
+      },
+      "properties": {
+        "Id": "707",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": "19.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.9237747192382,
+          61.40283203125
+        ]
+      },
+      "properties": {
+        "Id": "686",
+        "name": "",
+        "dateOfFind": "20.7.2024",
+        "type": "Бытовые",
+        "area": "0,3",
+        "dateOfLi": "23.6.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.4797439575195,
+          61.6855926513671
+        ]
+      },
+      "properties": {
+        "Id": "527",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "18.6.2015",
+        "type": "Лесопиление",
+        "area": "14300",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5817489624023,
+          61.969429016113
+        ]
+      },
+      "properties": {
+        "Id": "503",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "7.07.2023",
+        "type": "Промышленные",
+        "area": "54,1",
+        "dateOfLi": "8.06.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8499298095703,
+          61.1981811523437
+        ]
+      },
+      "properties": {
+        "Id": "417",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "19.10.2022",
+        "type": "Строительные",
+        "area": "15",
+        "dateOfLi": "19.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.8743362426757,
+          60.9980850219726
+        ]
+      },
+      "properties": {
+        "Id": "666",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Бытовые",
+        "area": "0,5",
+        "dateOfLi": "3.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.3451614379882,
+          61.3251419067382
+        ]
+      },
+      "properties": {
+        "Id": "539",
+        "name": "Захламление",
+        "dateOfFind": "23.5.2024",
+        "type": "Строительные",
+        "area": "0,4",
+        "dateOfLi": "15.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.610725402832,
+          61.497512817382
+        ]
+      },
+      "properties": {
+        "Id": "691",
+        "name": "Захламление",
+        "dateOfFind": "17.6.2024",
+        "type": "Бытовые",
+        "area": "1,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5859146118164,
+          61.947647094726
+        ]
+      },
+      "properties": {
+        "Id": "646",
+        "name": "",
+        "dateOfFind": "6.06.2024",
+        "type": "Строительные",
+        "area": "2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.9099197387695,
+          59.5821647644042
+        ]
+      },
+      "properties": {
+        "Id": "773",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Строительные",
+        "area": "2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.423011779785,
+          61.9131202697753
+        ]
+      },
+      "properties": {
+        "Id": "493",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "21.9.2017",
+        "type": "Лесопиление",
+        "area": "30",
+        "dateOfLi": "21.10.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.8290557861328,
+          60.9827766418457
+        ]
+      },
+      "properties": {
+        "Id": "508",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "10.9.2019",
+        "type": "Бытовые",
+        "area": "5179,1",
+        "dateOfLi": "10.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.5254745483398,
+          63.1691093444824
+        ]
+      },
+      "properties": {
+        "Id": "385",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "30.5.2013",
+        "type": "Бытовые",
+        "area": "4270",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7104415893554,
+          60.1360549926757
+        ]
+      },
+      "properties": {
+        "Id": "823",
+        "name": "Захламление",
+        "dateOfFind": "31.5.2024",
+        "type": "Строительные",
+        "area": "0,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8175582885742,
+          60.1160545349121
+        ]
+      },
+      "properties": {
+        "Id": "474",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Бытовые",
+        "area": "0,2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.4593353271484,
+          61.9679718017578
+        ]
+      },
+      "properties": {
+        "Id": "639",
+        "name": "Захламление",
+        "dateOfFind": "13.6.2024",
+        "type": "Промышленные",
+        "area": "0,2",
+        "dateOfLi": "11.6.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.608055114746,
+          61.70556640625
+        ]
+      },
+      "properties": {
+        "Id": "713",
+        "name": "Захламление",
+        "dateOfFind": "6.06.2024",
+        "type": "Бытовые",
+        "area": "250",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.6953887939453,
+          60.1221122741699
+        ]
+      },
+      "properties": {
+        "Id": "832",
+        "name": "Захламление",
+        "dateOfFind": "31.5.2024",
+        "type": "Строительные",
+        "area": "0,9",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.3745574951171,
+          62.7455825805664
+        ]
+      },
+      "properties": {
+        "Id": "387",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "16.3.2015",
+        "type": "Строительные",
+        "area": "1700",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.9256134033203,
+          59.5803604125976
+        ]
+      },
+      "properties": {
+        "Id": "779",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Бытовые",
+        "area": "5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.9043350219726,
+          59.583194732666
+        ]
+      },
+      "properties": {
+        "Id": "769",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Лесопиление",
+        "area": "1,2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7164154052734,
+          60.1411666870117
+        ]
+      },
+      "properties": {
+        "Id": "813",
+        "name": "Захламление",
+        "dateOfFind": "14.3.2025",
+        "type": "Бытовые",
+        "area": "0,1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": {}
+      },
+      "properties": {
+        "Id": "428",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "14.12.2017",
+        "type": "Бытовые",
+        "area": "1500",
+        "dateOfLi": "30.4.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1039733886718,
+          64.7634201049804
+        ]
+      },
+      "properties": {
+        "Id": "834",
+        "name": "Захламление",
+        "dateOfFind": "14.3.2025",
+        "type": "Промышленные",
+        "area": "6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.9293594360351,
+          61.32768249511
+        ]
+      },
+      "properties": {
+        "Id": "685",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Бытовые",
+        "area": "0,8",
+        "dateOfLi": "23.6.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.668357849121,
+          60.1589164733886
+        ]
+      },
+      "properties": {
+        "Id": "618",
+        "name": "ЗахламлениеN60°9'32.1\"E64°40'6.1\"",
+        "dateOfFind": "19.9.2023",
+        "type": "Промышленные",
+        "area": "0,5",
+        "dateOfLi": "27.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.909553527832,
+          59.5817489624023
+        ]
+      },
+      "properties": {
+        "Id": "772",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Промышленные",
+        "area": "3",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8066940307617,
+          61.1417236328125
+        ]
+      },
+      "properties": {
+        "Id": "673",
+        "name": "Захламление",
+        "dateOfFind": "11.7.2024",
+        "type": "Бытовые",
+        "area": "10",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.88272094726,
+          61.4718894958496
+        ]
+      },
+      "properties": {
+        "Id": "515",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "10.6.2014",
+        "type": "Лесопиление",
+        "area": "3127",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.892219543457,
+          64.6708068847656
+        ]
+      },
+      "properties": {
+        "Id": "854",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Бытовые",
+        "area": "3",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.853588104248,
+          61.2032814025878
+        ]
+      },
+      "properties": {
+        "Id": "421",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "21.12.2017",
+        "type": "Строительные",
+        "area": "60",
+        "dateOfLi": "4.06.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.489761352539,
+          62.1093826293945
+        ]
+      },
+      "properties": {
+        "Id": "586",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "1.01.1998",
+        "type": "Строительные",
+        "area": "28850",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.850842,
+          61.205561
+        ]
+      },
+      "properties": {
+        "Id": "425",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "26.7.2019",
+        "type": "Строительные",
+        "area": "2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5524978637695,
+          61.855560302734
+        ]
+      },
+      "properties": {
+        "Id": "714",
+        "name": "Захламление",
+        "dateOfFind": "6.06.2024",
+        "type": "Строительные",
+        "area": "10",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4638900756835,
+          60.592498779296
+        ]
+      },
+      "properties": {
+        "Id": "701",
+        "name": "Захламление",
+        "dateOfFind": "15.5.2024",
+        "type": "Лесопиление",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7913055419921,
+          60.1349449157714
+        ]
+      },
+      "properties": {
+        "Id": "407",
+        "name": "Захламление",
+        "dateOfFind": "19.9.2023",
+        "type": "Бытовые",
+        "area": "2",
+        "dateOfLi": "18.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          660152.2,
+          622750.5
+        ]
+      },
+      "properties": {
+        "Id": "588",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "1.03.2024",
+        "type": "Бытовые",
+        "area": "240",
+        "dateOfLi": "15.8.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5877227783203,
+          61.934600830078
+        ]
+      },
+      "properties": {
+        "Id": "500",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "19.5.2023",
+        "type": "Бытовые",
+        "area": "50",
+        "dateOfLi": "23.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.8167762756347,
+          65.9585037231445
+        ]
+      },
+      "properties": {
+        "Id": "784",
+        "name": "Захламление",
+        "dateOfFind": "20.5.2024",
+        "type": "Лесопиление",
+        "area": "11",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4683990478515,
+          60.799713134765
+        ]
+      },
+      "properties": {
+        "Id": "705",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Бытовые",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7178878784179,
+          60.1586380004882
+        ]
+      },
+      "properties": {
+        "Id": "807",
+        "name": "Захламление",
+        "dateOfFind": "31.5.2024",
+        "type": "Промышленные",
+        "area": "2,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7345581054687,
+          60.141860961914
+        ]
+      },
+      "properties": {
+        "Id": "401",
+        "name": "Захламление",
+        "dateOfFind": "13.9.2023",
+        "type": "Бытовые",
+        "area": "0,25",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.6566696166992,
+          60.1507492065429
+        ]
+      },
+      "properties": {
+        "Id": "800",
+        "name": "Захламление»",
+        "dateOfFind": "31.5.2024",
+        "type": "Промышленные",
+        "area": "0,1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.4625015258789,
+          61.312233
+        ]
+      },
+      "properties": {
+        "Id": "383",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "15.4.2024",
+        "type": "Промышленные",
+        "area": "147,6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7215270996093,
+          60.1374740600585
+        ]
+      },
+      "properties": {
+        "Id": "454",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Промышленные",
+        "area": "0,9",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7168884277343,
+          60.1417503356933
+        ]
+      },
+      "properties": {
+        "Id": "396",
+        "name": "Захламление",
+        "dateOfFind": "13.9.2023",
+        "type": "Промышленные",
+        "area": "0,4",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1313858032226,
+          61.1959991455078
+        ]
+      },
+      "properties": {
+        "Id": "382",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "12.7.2023",
+        "type": "Промышленные",
+        "area": "10",
+        "dateOfLi": "26.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.5563888549804,
+          60.9980316162109
+        ]
+      },
+      "properties": {
+        "Id": "609",
+        "name": "Захламление,квартал474в.16",
+        "dateOfFind": "9.08.2017",
+        "type": "Промышленные",
+        "area": "861,6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7227249145507,
+          60.1373596191406
+        ]
+      },
+      "properties": {
+        "Id": "450",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "0,7",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.437889099121,
+          60.596961975097
+        ]
+      },
+      "properties": {
+        "Id": "732",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Промышленные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8429985046386,
+          61.1980285644531
+        ]
+      },
+      "properties": {
+        "Id": "756",
+        "name": "Захламление",
+        "dateOfFind": "22.1.2025",
+        "type": "Строительные",
+        "area": "1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8155059814453,
+          61.1993217468261
+        ]
+      },
+      "properties": {
+        "Id": "544",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "26.9.2017",
+        "type": "Лесопиление",
+        "area": "1800",
+        "dateOfLi": "31.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.2020034790039,
+          60.4888610839843
+        ]
+      },
+      "properties": {
+        "Id": "655",
+        "name": "Захламление",
+        "dateOfFind": "6.05.2024",
+        "type": "Промышленные",
+        "area": "3",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7238082885742,
+          60.1371383666992
+        ]
+      },
+      "properties": {
+        "Id": "449",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Промышленные",
+        "area": "0,2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.702163696289,
+          60.164695739746
+        ]
+      },
+      "properties": {
+        "Id": "746",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Бытовые",
+        "area": "0",
+        "dateOfLi": "29.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.6958084106445,
+          60.1221656799316
+        ]
+      },
+      "properties": {
+        "Id": "828",
+        "name": "Захламление",
+        "dateOfFind": "31.5.2024",
+        "type": "Строительные",
+        "area": "20",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4710006713867,
+          60.689163208007
+        ]
+      },
+      "properties": {
+        "Id": "699",
+        "name": "Захламление",
+        "dateOfFind": "15.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1039161682128,
+          64.7605590820312
+        ]
+      },
+      "properties": {
+        "Id": "835",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.8670578002929,
+          60.9964179992675
+        ]
+      },
+      "properties": {
+        "Id": "665",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Бытовые",
+        "area": "0,5",
+        "dateOfLi": "3.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4689712524414,
+          60.724983215332
+        ]
+      },
+      "properties": {
+        "Id": "703",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": "29.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7214202880859,
+          60.1361389160156
+        ]
+      },
+      "properties": {
+        "Id": "459",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "0,7",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.975471496582,
+          58.8158073425292
+        ]
+      },
+      "properties": {
+        "Id": "783",
+        "name": "Захламление",
+        "dateOfFind": "20.5.2024",
+        "type": "Промышленные",
+        "area": "32",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6183319091796,
+          61.1516685485839
+        ]
+      },
+      "properties": {
+        "Id": "650",
+        "name": "Захламление",
+        "dateOfFind": "16.5.2024",
+        "type": "Бытовые",
+        "area": "0,9",
+        "dateOfLi": "5.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.6956405639648,
+          60.1221389770507
+        ]
+      },
+      "properties": {
+        "Id": "830",
+        "name": "Захламление",
+        "dateOfFind": "31.5.2024",
+        "type": "Строительные",
+        "area": "2,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.654914855957,
+          60.1073341369628
+        ]
+      },
+      "properties": {
+        "Id": "712",
+        "name": "Захламление",
+        "dateOfFind": "6.06.2024",
+        "type": "Бытовые",
+        "area": "1,5",
+        "dateOfLi": "19.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8066635131835,
+          61.1413879394531
+        ]
+      },
+      "properties": {
+        "Id": "672",
+        "name": "Захламление",
+        "dateOfFind": "11.7.2024",
+        "type": "Строительные",
+        "area": "0,9",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.8730010986328,
+          59.5912780761718
+        ]
+      },
+      "properties": {
+        "Id": "764",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Строительные",
+        "area": "1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.732666015625,
+          60.1171684265136
+        ]
+      },
+      "properties": {
+        "Id": "554",
+        "name": "Захламление",
+        "dateOfFind": "12.9.2023",
+        "type": "Лесопиление",
+        "area": "0,9",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.111831665039,
+          64.7120285034179
+        ]
+      },
+      "properties": {
+        "Id": "847",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.896614074707,
+          59.5847778320312
+        ]
+      },
+      "properties": {
+        "Id": "768",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Строительные",
+        "area": "0,8",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.6734237670898,
+          61.1572608947753
+        ]
+      },
+      "properties": {
+        "Id": "535",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "13.6.2017",
+        "type": "Строительные",
+        "area": "70",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.8731079101562,
+          60.9978599548339
+        ]
+      },
+      "properties": {
+        "Id": "669",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Промышленные",
+        "area": "0,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8168029785156,
+          60.1158599853515
+        ]
+      },
+      "properties": {
+        "Id": "466",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Промышленные",
+        "area": "0,4",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.4978866577148,
+          64.2650527954101
+        ]
+      },
+      "properties": {
+        "Id": "391",
+        "name": "Захламление",
+        "dateOfFind": "22.6.2017",
+        "type": "Промышленные",
+        "area": "90",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.8843917846679,
+          61.51651000976
+        ]
+      },
+      "properties": {
+        "Id": "671",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Строительные",
+        "area": "1",
+        "dateOfLi": "3.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.584358215332,
+          60.9484710693359
+        ]
+      },
+      "properties": {
+        "Id": "623",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2020",
+        "type": "Промышленные",
+        "area": "10",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7210845947265,
+          60.1362228393554
+        ]
+      },
+      "properties": {
+        "Id": "461",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "0,1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1035270690917,
+          64.7831649780273
+        ]
+      },
+      "properties": {
+        "Id": "820",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1163902282714,
+          64.7320251464843
+        ]
+      },
+      "properties": {
+        "Id": "851",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Промышленные",
+        "area": "20",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1073341369628,
+          64.7467498779296
+        ]
+      },
+      "properties": {
+        "Id": "838",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7320556640625,
+          60.1121673583984
+        ]
+      },
+      "properties": {
+        "Id": "563",
+        "name": "Захламление",
+        "dateOfFind": "12.9.2023",
+        "type": "Промышленные",
+        "area": "0,9",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7210845947265,
+          60.1362228393554
+        ]
+      },
+      "properties": {
+        "Id": "458",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Промышленные",
+        "area": "0,6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7908859252929,
+          60.1349983215332
+        ]
+      },
+      "properties": {
+        "Id": "411",
+        "name": "Захламление",
+        "dateOfFind": "19.9.2023",
+        "type": "Строительные",
+        "area": "0,1",
+        "dateOfLi": "18.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1133041381835,
+          64.7208023071289
+        ]
+      },
+      "properties": {
+        "Id": "853",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Промышленные",
+        "area": "6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.2774429321289,
+          61.2774429321289
+        ]
+      },
+      "properties": {
+        "Id": "762",
+        "name": "",
+        "dateOfFind": "12.3.2025",
+        "type": "Промышленные",
+        "area": "2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.17061,
+          61.3875083923339
+        ]
+      },
+      "properties": {
+        "Id": "576",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "19.7.2021",
+        "type": "Строительные",
+        "area": "66",
+        "dateOfLi": "19.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7442779541015,
+          60.1394729614257
+        ]
+      },
+      "properties": {
+        "Id": "750",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "14.10.2024",
+        "type": "Промышленные",
+        "area": "40",
+        "dateOfLi": "12.11.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6651077270507,
+          61.1076927185058
+        ]
+      },
+      "properties": {
+        "Id": "722",
+        "name": "Захламление",
+        "dateOfFind": "6.06.2024",
+        "type": "Строительные",
+        "area": "1",
+        "dateOfLi": "25.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.7984428405761,
+          61.1904411315917
+        ]
+      },
+      "properties": {
+        "Id": "543",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "31.5.2024",
+        "type": "Строительные",
+        "area": "30",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8105010986328,
+          61.1438064575195
+        ]
+      },
+      "properties": {
+        "Id": "678",
+        "name": "Захламление",
+        "dateOfFind": "11.7.2024",
+        "type": "Строительные",
+        "area": "0,6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.223892211914,
+          63.6911125183105
+        ]
+      },
+      "properties": {
+        "Id": "593",
+        "name": "ОбъектвГРОНВОС",
+        "dateOfFind": "1.06.2019",
+        "type": "Промышленные",
+        "area": "2587,1",
+        "dateOfLi": "31.10.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.8948364257812,
+          59.5884437561035
+        ]
+      },
+      "properties": {
+        "Id": "766",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Промышленные",
+        "area": "1,2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6347198486328,
+          61.1237487792968
+        ]
+      },
+      "properties": {
+        "Id": "716",
+        "name": "Захламление",
+        "dateOfFind": "6.06.2024",
+        "type": "Строительные",
+        "area": "0,4",
+        "dateOfLi": "25.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8458595275878,
+          61.1948890686035
+        ]
+      },
+      "properties": {
+        "Id": "420",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "18.10.2021",
+        "type": "Строительные",
+        "area": "20",
+        "dateOfLi": "16.5.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.172805786132,
+          61.9304084777832
+        ]
+      },
+      "properties": {
+        "Id": "599",
+        "name": "Захламление",
+        "dateOfFind": "6.09.2023",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1077499389648,
+          64.7338638305664
+        ]
+      },
+      "properties": {
+        "Id": "845",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2025",
+        "type": "Строительные",
+        "area": "1,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.235900878906,
+          61.9262504577636
+        ]
+      },
+      "properties": {
+        "Id": "600",
+        "name": "Захламление",
+        "dateOfFind": "6.09.2023",
+        "type": "Бытовые",
+        "area": "0",
+        "dateOfLi": "10.10.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.980567932128,
+          64.7461929321289
+        ]
+      },
+      "properties": {
+        "Id": "840",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Бытовые",
+        "area": "5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6247253417968,
+          61.1500015258789
+        ]
+      },
+      "properties": {
+        "Id": "651",
+        "name": "Захламление",
+        "dateOfFind": "16.5.2024",
+        "type": "Бытовые",
+        "area": "2",
+        "dateOfLi": "5.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.4816131591796,
+          61.123062133789
+        ]
+      },
+      "properties": {
+        "Id": "611",
+        "name": "Захламление",
+        "dateOfFind": "24.10.2018",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8210525512695,
+          60.1200294494628
+        ]
+      },
+      "properties": {
+        "Id": "570",
+        "name": "Захламление",
+        "dateOfFind": "18.10.2023",
+        "type": "Строительные",
+        "area": "0,9",
+        "dateOfLi": "18.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.131912231445,
+          61.9273681640625
+        ]
+      },
+      "properties": {
+        "Id": "604",
+        "name": "Захламление",
+        "dateOfFind": "6.09.2023",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": "11.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.5061111450195,
+          61.677188873291
+        ]
+      },
+      "properties": {
+        "Id": "523",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "9.10.2012",
+        "type": "Строительные",
+        "area": "9700",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8163909912109,
+          60.1158905029296
+        ]
+      },
+      "properties": {
+        "Id": "469",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "0,4",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6348648071289,
+          61.1238327026367
+        ]
+      },
+      "properties": {
+        "Id": "717",
+        "name": "Захламление",
+        "dateOfFind": "6.06.2024",
+        "type": "Промышленные",
+        "area": "0,4",
+        "dateOfLi": "25.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7177505493164,
+          60.1419982910156
+        ]
+      },
+      "properties": {
+        "Id": "402",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "0,1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.178298950195,
+          61.9304809570312
+        ]
+      },
+      "properties": {
+        "Id": "598",
+        "name": "Захламление",
+        "dateOfFind": "6.09.2023",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.4567184448242,
+          59.65327835083
+        ]
+      },
+      "properties": {
+        "Id": "634",
+        "name": "ОбъектвГРОНВОС",
+        "dateOfFind": "10.6.2024",
+        "type": "Строительные",
+        "area": "3750",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.6665802001953,
+          60.1604461669921
+        ]
+      },
+      "properties": {
+        "Id": "619",
+        "name": "ЗахламлениеN60°9'37.6\"E64°39'59.7\"",
+        "dateOfFind": "19.9.2023",
+        "type": "Лесопиление",
+        "area": "8",
+        "dateOfLi": "27.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7332534790039,
+          60.1161956787109
+        ]
+      },
+      "properties": {
+        "Id": "556",
+        "name": "Захламление",
+        "dateOfFind": "12.9.2023",
+        "type": "Бытовые",
+        "area": "0,4",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.9114151000976,
+          60.9998054504394
+        ]
+      },
+      "properties": {
+        "Id": "683",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Бытовые",
+        "area": "0,3",
+        "dateOfLi": "23.6.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7802200317382,
+          60.1416931152343
+        ]
+      },
+      "properties": {
+        "Id": "631",
+        "name": "Захламление",
+        "dateOfFind": "13.9.2023",
+        "type": "Промышленные",
+        "area": "2",
+        "dateOfLi": "22.8.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7263641357421,
+          60.1366119384765
+        ]
+      },
+      "properties": {
+        "Id": "440",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "0,2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.8777465820312,
+          60.9925003051757
+        ]
+      },
+      "properties": {
+        "Id": "654",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Бытовые",
+        "area": "10",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7738647460937,
+          60.1240005493164
+        ]
+      },
+      "properties": {
+        "Id": "620",
+        "name": "Захламление",
+        "dateOfFind": "19.9.2023",
+        "type": "Промышленные",
+        "area": "66",
+        "dateOfLi": "3.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.4999465942382,
+          60.2186393737792
+        ]
+      },
+      "properties": {
+        "Id": "637",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "25.5.2023",
+        "type": "Строительные",
+        "area": "75",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8608093261718,
+          61.2011489868164
+        ]
+      },
+      "properties": {
+        "Id": "643",
+        "name": "Захламление",
+        "dateOfFind": "11.6.2024",
+        "type": "Строительные",
+        "area": "1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.7488059997558,
+          63.220417022705
+        ]
+      },
+      "properties": {
+        "Id": "386",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "22.7.2014",
+        "type": "Промышленные",
+        "area": "1560",
+        "dateOfLi": "21.10.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.108528137207,
+          64.7989425659179
+        ]
+      },
+      "properties": {
+        "Id": "788",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Лесопиление",
+        "area": "2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5488891601562,
+          61.866661071777
+        ]
+      },
+      "properties": {
+        "Id": "715",
+        "name": "Захламление",
+        "dateOfFind": "14.6.2024",
+        "type": "Промышленные",
+        "area": "10",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7260818481445,
+          60.1365852355957
+        ]
+      },
+      "properties": {
+        "Id": "436",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Бытовые",
+        "area": "0,1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.3219604492187,
+          61.2911491394042
+        ]
+      },
+      "properties": {
+        "Id": "757",
+        "name": "Захламление",
+        "dateOfFind": "22.1.2025",
+        "type": "Строительные",
+        "area": "1",
+        "dateOfLi": "11.12.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4572219848632,
+          60.580558776855
+        ]
+      },
+      "properties": {
+        "Id": "731",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": "29.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7212219238281,
+          60.1366119384765
+        ]
+      },
+      "properties": {
+        "Id": "456",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "0,3",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.952911376953,
+          61.9183006286621
+        ]
+      },
+      "properties": {
+        "Id": "480",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "5.05.2011",
+        "type": "Бытовые",
+        "area": "3570",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1092796325683,
+          64.8009185791015
+        ]
+      },
+      "properties": {
+        "Id": "787",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Бытовые",
+        "area": "1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8161926269531,
+          60.1158599853515
+        ]
+      },
+      "properties": {
+        "Id": "470",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "0,8",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.94970703125,
+          64.6463623046875
+        ]
+      },
+      "properties": {
+        "Id": "860",
+        "name": "Захламление\"",
+        "dateOfFind": "21.5.2024",
+        "type": "Бытовые",
+        "area": "6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.6952514648437,
+          60.1176109313964
+        ]
+      },
+      "properties": {
+        "Id": "833",
+        "name": "Захламление»",
+        "dateOfFind": "31.5.2024",
+        "type": "Строительные",
+        "area": "1,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.8671646118164,
+          61.17776489257
+        ]
+      },
+      "properties": {
+        "Id": "664",
+        "name": "",
+        "dateOfFind": "28.5.2024",
+        "type": "Промышленные",
+        "area": "4",
+        "dateOfLi": "3.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          68.2505187988281,
+          61.475414276123
+        ]
+      },
+      "properties": {
+        "Id": "378",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "8.10.2019",
+        "type": "Промышленные",
+        "area": "471,6",
+        "dateOfLi": "4.06.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": {}
+      },
+      "properties": {
+        "Id": "518",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "27.5.2024",
+        "type": "Лесопиление",
+        "area": "10",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.8796081542968,
+          61.15563964843
+        ]
+      },
+      "properties": {
+        "Id": "661",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Строительные",
+        "area": "15",
+        "dateOfLi": "3.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.277099609375,
+          61.3499412536621
+        ]
+      },
+      "properties": {
+        "Id": "540",
+        "name": "Захламление",
+        "dateOfFind": "30.5.2024",
+        "type": "Строительные",
+        "area": "0,2",
+        "dateOfLi": "25.6.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.9952201843261,
+          61.9395103454589
+        ]
+      },
+      "properties": {
+        "Id": "496",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "25.11.2020",
+        "type": "Строительные",
+        "area": "10",
+        "dateOfLi": "18.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5856552124023,
+          61.938911437988
+        ]
+      },
+      "properties": {
+        "Id": "645",
+        "name": "Захламление",
+        "dateOfFind": "6.06.2024",
+        "type": "Лесопиление",
+        "area": "0,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8046646118164,
+          61.1453323364257
+        ]
+      },
+      "properties": {
+        "Id": "668",
+        "name": "Захламление",
+        "dateOfFind": "11.7.2024",
+        "type": "Промышленные",
+        "area": "0,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7906951904296,
+          60.1350288391113
+        ]
+      },
+      "properties": {
+        "Id": "410",
+        "name": "Захламление",
+        "dateOfFind": "19.9.2023",
+        "type": "Промышленные",
+        "area": "1",
+        "dateOfLi": "18.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": {}
+      },
+      "properties": {
+        "Id": "627",
+        "name": "Захламление",
+        "dateOfFind": "8.06.2022",
+        "type": "Бытовые",
+        "area": "100",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8166961669921,
+          60.1158905029296
+        ]
+      },
+      "properties": {
+        "Id": "467",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "0,4",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1088333129882,
+          64.8042221069335
+        ]
+      },
+      "properties": {
+        "Id": "814",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "10",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.51466,
+          60.20647
+        ]
+      },
+      "properties": {
+        "Id": "549",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "23.5.2018",
+        "type": "Строительные",
+        "area": "1390",
+        "dateOfLi": "19.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.591723,
+          61.260571
+        ]
+      },
+      "properties": {
+        "Id": "384",
+        "name": "Захламление",
+        "dateOfFind": "2.07.2019",
+        "type": "Бытовые",
+        "area": "400",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4500579833984,
+          60.625
+        ]
+      },
+      "properties": {
+        "Id": "742",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": "29.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.985565185546,
+          64.7454452514648
+        ]
+      },
+      "properties": {
+        "Id": "841",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "12",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8056640625,
+          61
+        ]
+      },
+      "properties": {
+        "Id": "675",
+        "name": "Захламление",
+        "dateOfFind": "11.7.2024",
+        "type": "Промышленные",
+        "area": "10",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.66796875,
+          60.1588897705078
+        ]
+      },
+      "properties": {
+        "Id": "615",
+        "name": "ЗахламлениеN60°9'32.0\"E64°40'4.7\",",
+        "dateOfFind": "19.9.2023",
+        "type": "Бытовые",
+        "area": "7",
+        "dateOfLi": "27.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8519401550292,
+          61.1968994140625
+        ]
+      },
+      "properties": {
+        "Id": "546",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "24.12.2020",
+        "type": "Строительные",
+        "area": "160",
+        "dateOfLi": "30.11.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.156707763671,
+          61.9250106811523
+        ]
+      },
+      "properties": {
+        "Id": "491",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "16.8.2017",
+        "type": "Бытовые",
+        "area": "10",
+        "dateOfLi": "7.08.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4761123657226,
+          60.70556640625
+        ]
+      },
+      "properties": {
+        "Id": "743",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.133628845214,
+          61.9269981384277
+        ]
+      },
+      "properties": {
+        "Id": "492",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "16.8.2017",
+        "type": "Строительные",
+        "area": "80",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.58013,
+          61.3740806579589
+        ]
+      },
+      "properties": {
+        "Id": "516",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "21.10.2011",
+        "type": "Лесопиление",
+        "area": "1344,7",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.840721130371,
+          59.725112915039
+        ]
+      },
+      "properties": {
+        "Id": "571",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "3.06.2024",
+        "type": "Строительные",
+        "area": "150",
+        "dateOfLi": "5.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8178405761718,
+          61.2099571228027
+        ]
+      },
+      "properties": {
+        "Id": "548",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "16.7.2021",
+        "type": "Строительные",
+        "area": "1400",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4574737548828,
+          60.579185485839
+        ]
+      },
+      "properties": {
+        "Id": "693",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8288803100585,
+          61.2029609680175
+        ]
+      },
+      "properties": {
+        "Id": "427",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "14.12.2017",
+        "type": "Промышленные",
+        "area": "80000",
+        "dateOfLi": "4.06.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8175582885742,
+          60.1158905029296
+        ]
+      },
+      "properties": {
+        "Id": "473",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Промышленные",
+        "area": "0,6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7068862915039,
+          60.1370277404785
+        ]
+      },
+      "properties": {
+        "Id": "825",
+        "name": "Захламление",
+        "dateOfFind": "31.5.2024",
+        "type": "Промышленные",
+        "area": "1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.465835571289,
+          60.619430541992
+        ]
+      },
+      "properties": {
+        "Id": "734",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": {}
+      },
+      "properties": {
+        "Id": "553",
+        "name": "Захламление",
+        "dateOfFind": "12.9.2023",
+        "type": "Промышленные",
+        "area": "0,9",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7331390380859,
+          60.1111946105957
+        ]
+      },
+      "properties": {
+        "Id": "561",
+        "name": "Захламление",
+        "dateOfFind": "12.9.2023",
+        "type": "Строительные",
+        "area": "0,1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8198089599609,
+          60.1194152832031
+        ]
+      },
+      "properties": {
+        "Id": "567",
+        "name": "Захламление",
+        "dateOfFind": "18.10.2023",
+        "type": "Строительные",
+        "area": "0,9",
+        "dateOfLi": "18.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7342529296875,
+          60.1170272827148
+        ]
+      },
+      "properties": {
+        "Id": "552",
+        "name": "Захламление",
+        "dateOfFind": "12.9.2023",
+        "type": "Промышленные",
+        "area": "0,2",
+        "dateOfLi": "19.11.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4822235107421,
+          60.724983215332
+        ]
+      },
+      "properties": {
+        "Id": "697",
+        "name": "Захламление",
+        "dateOfFind": "15.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": "12.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.891502380371,
+          61.4222869873
+        ]
+      },
+      "properties": {
+        "Id": "682",
+        "name": "Захламление,районпожарнойчасти;",
+        "dateOfFind": "28.5.2024",
+        "type": "Промышленные",
+        "area": "0,6",
+        "dateOfLi": "3.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.26870727539,
+          61.9347305297851
+        ]
+      },
+      "properties": {
+        "Id": "497",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "25.11.2020",
+        "type": "Промышленные",
+        "area": "30",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1040840148925,
+          64.7640533447265
+        ]
+      },
+      "properties": {
+        "Id": "831",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "4",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4545288085937,
+          60.555267333984
+        ]
+      },
+      "properties": {
+        "Id": "695",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Промышленные",
+        "area": "0",
+        "dateOfLi": "29.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7324142456054,
+          60.1120834350585
+        ]
+      },
+      "properties": {
+        "Id": "558",
+        "name": "Захламление",
+        "dateOfFind": "12.9.2023",
+        "type": "Промышленные",
+        "area": "0,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.9326934814453,
+          64.2405014038085
+        ]
+      },
+      "properties": {
+        "Id": "389",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "21.2.2019",
+        "type": "Строительные",
+        "area": "1025",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.454177856445,
+          64.2351684570312
+        ]
+      },
+      "properties": {
+        "Id": "595",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "1.06.2021",
+        "type": "Промышленные",
+        "area": "100",
+        "dateOfLi": "25.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8637924194335,
+          61.2006568908691
+        ]
+      },
+      "properties": {
+        "Id": "416",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "8.11.2022",
+        "type": "Строительные",
+        "area": "50",
+        "dateOfLi": "4.06.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.654182434082,
+          60.8838882446289
+        ]
+      },
+      "properties": {
+        "Id": "581",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "15.9.2023",
+        "type": "Строительные",
+        "area": "70",
+        "dateOfLi": "1.10.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.49018859863,
+          61.9252700805664
+        ]
+      },
+      "properties": {
+        "Id": "603",
+        "name": "Захламление",
+        "dateOfFind": "6.09.2023",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": "10.10.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4436111450195,
+          60.541648864746
+        ]
+      },
+      "properties": {
+        "Id": "741",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Промышленные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.2091369628906,
+          60.4922485351562
+        ]
+      },
+      "properties": {
+        "Id": "653",
+        "name": "Захламление",
+        "dateOfFind": "6.05.2024",
+        "type": "Промышленные",
+        "area": "1",
+        "dateOfLi": "21.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7175521850585,
+          60.1588058471679
+        ]
+      },
+      "properties": {
+        "Id": "803",
+        "name": "Захламление",
+        "dateOfFind": "31.5.2024",
+        "type": "Строительные",
+        "area": "2,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4640579223632,
+          60.725288391113
+        ]
+      },
+      "properties": {
+        "Id": "727",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": "29.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1088905334472,
+          64.7990798950195
+        ]
+      },
+      "properties": {
+        "Id": "790",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "1,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.820083618164,
+          60.1194725036621
+        ]
+      },
+      "properties": {
+        "Id": "565",
+        "name": "Захламление",
+        "dateOfFind": "18.10.2023",
+        "type": "Строительные",
+        "area": "0,9",
+        "dateOfLi": "18.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.831921,
+          61.141699
+        ]
+      },
+      "properties": {
+        "Id": "529",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "25.5.2023",
+        "type": "Бытовые",
+        "area": "700",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.700942993164,
+          60.1250572204589
+        ]
+      },
+      "properties": {
+        "Id": "827",
+        "name": "Захламление",
+        "dateOfFind": "31.5.2024",
+        "type": "Бытовые",
+        "area": "1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7269134521484,
+          60.1368598937988
+        ]
+      },
+      "properties": {
+        "Id": "446",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Бытовые",
+        "area": "0,1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.3386611938476,
+          61.2948913574218
+        ]
+      },
+      "properties": {
+        "Id": "377",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "25.6.2020",
+        "type": "Строительные",
+        "area": "350",
+        "dateOfLi": "31.5.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4626388549804,
+          60.568351745605
+        ]
+      },
+      "properties": {
+        "Id": "702",
+        "name": "Захламление",
+        "dateOfFind": "15.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7260284423828,
+          60.1370010375976
+        ]
+      },
+      "properties": {
+        "Id": "442",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "0,4",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4529418945312,
+          60.606117248535
+        ]
+      },
+      "properties": {
+        "Id": "729",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.8858642578125,
+          61.5084991455
+        ]
+      },
+      "properties": {
+        "Id": "681",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Строительные",
+        "area": "0,6",
+        "dateOfLi": "3.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.716941833496,
+          60.1417236328125
+        ]
+      },
+      "properties": {
+        "Id": "397",
+        "name": "Захламление",
+        "dateOfFind": "13.9.2023",
+        "type": "Промышленные",
+        "area": "0,1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4722213745117,
+          60.797233581542
+        ]
+      },
+      "properties": {
+        "Id": "739",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.9433059692382,
+          58.7968063354492
+        ]
+      },
+      "properties": {
+        "Id": "782",
+        "name": "Захламление",
+        "dateOfFind": "20.5.2024",
+        "type": "Строительные",
+        "area": "130",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6400985717773,
+          60.956802368164
+        ]
+      },
+      "properties": {
+        "Id": "510",
+        "name": "Захламление",
+        "dateOfFind": "7.01.2024",
+        "type": "Строительные",
+        "area": "0,6",
+        "dateOfLi": "24.1.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.9224700927734,
+          61.19721984863
+        ]
+      },
+      "properties": {
+        "Id": "687",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Лесопиление",
+        "area": "10",
+        "dateOfLi": "23.6.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.116527557373,
+          64.7326965332031
+        ]
+      },
+      "properties": {
+        "Id": "852",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Бытовые",
+        "area": "20",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6475524902343,
+          61.110553741455
+        ]
+      },
+      "properties": {
+        "Id": "502",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "6.06.2023",
+        "type": "Бытовые",
+        "area": "20",
+        "dateOfLi": "18.10.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.475830078125,
+          60.790824890136
+        ]
+      },
+      "properties": {
+        "Id": "708",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Промышленные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.6737213134765,
+          60.1551666259765
+        ]
+      },
+      "properties": {
+        "Id": "614",
+        "name": "ЗахламлениеN60°9'18.6\"E64°40'25.4\",",
+        "dateOfFind": "19.9.2023",
+        "type": "Строительные",
+        "area": "11,2",
+        "dateOfLi": "14.6.2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7218017578125,
+          60.1361389160156
+        ]
+      },
+      "properties": {
+        "Id": "460",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Бытовые",
+        "area": "0,2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.1785697937011,
+          61.9220314025878
+        ]
+      },
+      "properties": {
+        "Id": "481",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "4.10.2011",
+        "type": "Промышленные",
+        "area": "850",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.72216796875,
+          60.1374740600585
+        ]
+      },
+      "properties": {
+        "Id": "452",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8247528076171,
+          60.7927513122558
+        ]
+      },
+      "properties": {
+        "Id": "509",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "10.9.2019",
+        "type": "Строительные",
+        "area": "9274,1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6650009155273,
+          61.1606407165527
+        ]
+      },
+      "properties": {
+        "Id": "660",
+        "name": "Захламление",
+        "dateOfFind": "16.5.2024",
+        "type": "Промышленные",
+        "area": "2",
+        "dateOfLi": "5.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": {}
+      },
+      "properties": {
+        "Id": "393",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "30.5.2023",
+        "type": "Лесопиление",
+        "area": "2,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8163185119628,
+          61.21146
+        ]
+      },
+      "properties": {
+        "Id": "432",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "25.5.2017",
+        "type": "Промышленные",
+        "area": "3500",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8737411499023,
+          61.1957893371582
+        ]
+      },
+      "properties": {
+        "Id": "429",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "22.5.2024",
+        "type": "Бытовые",
+        "area": "2",
+        "dateOfLi": "4.10.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8165283203125,
+          60.1155815124511
+        ]
+      },
+      "properties": {
+        "Id": "472",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "0,6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.732666015625,
+          60.1117515563964
+        ]
+      },
+      "properties": {
+        "Id": "560",
+        "name": "Захламление",
+        "dateOfFind": "31.5.2024",
+        "type": "Строительные",
+        "area": "0,9",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8168869018554,
+          60.1501960754394
+        ]
+      },
+      "properties": {
+        "Id": "785",
+        "name": "Захламление",
+        "dateOfFind": "31.5.2024",
+        "type": "Строительные",
+        "area": "0,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.518798828125,
+          61.6736106872558
+        ]
+      },
+      "properties": {
+        "Id": "525",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "1.11.2011",
+        "type": "Бытовые",
+        "area": "3000",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7210540771484,
+          60.1363906860351
+        ]
+      },
+      "properties": {
+        "Id": "457",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Бытовые",
+        "area": "1,2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8715591430664,
+          61.2031517028808
+        ]
+      },
+      "properties": {
+        "Id": "422",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "10.4.2023",
+        "type": "Строительные",
+        "area": "10",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.4812774658203,
+          61.127487182617
+        ]
+      },
+      "properties": {
+        "Id": "610",
+        "name": "Захламление",
+        "dateOfFind": "24.10.2018",
+        "type": "Бытовые",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.191802978515,
+          61.9293899536132
+        ]
+      },
+      "properties": {
+        "Id": "602",
+        "name": "Захламление",
+        "dateOfFind": "6.09.2023",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1090278625488,
+          64.8019714355468
+        ]
+      },
+      "properties": {
+        "Id": "818",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Промышленные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1096954345703,
+          64.8058319091796
+        ]
+      },
+      "properties": {
+        "Id": "808",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Промышленные",
+        "area": "50",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7262802124023,
+          60.1366119384765
+        ]
+      },
+      "properties": {
+        "Id": "435",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Лесопиление",
+        "area": "0,2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4501342773437,
+          60.752792358398
+        ]
+      },
+      "properties": {
+        "Id": "736",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.997238159179,
+          64.7431411743164
+        ]
+      },
+      "properties": {
+        "Id": "842",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.71044921875,
+          60.951358795166
+        ]
+      },
+      "properties": {
+        "Id": "578",
+        "name": "Захламление",
+        "dateOfFind": "12.7.2023",
+        "type": "Строительные",
+        "area": "2500",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8070831298828,
+          61.1413345336914
+        ]
+      },
+      "properties": {
+        "Id": "677",
+        "name": "Захламление",
+        "dateOfFind": "11.7.2024",
+        "type": "Промышленные",
+        "area": "0,6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.9103851318359,
+          59.5822486877441
+        ]
+      },
+      "properties": {
+        "Id": "774",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Строительные",
+        "area": "2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.416946411132,
+          64.2051391601562
+        ]
+      },
+      "properties": {
+        "Id": "596",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "1.06.2019",
+        "type": "Бытовые",
+        "area": "1500",
+        "dateOfLi": "31.10.2025"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8168640136718,
+          60.1158332824707
+        ]
+      },
+      "properties": {
+        "Id": "465",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Промышленные",
+        "area": "0,6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1160850524902,
+          64.7307510375976
+        ]
+      },
+      "properties": {
+        "Id": "850",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "20",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.334167480468,
+          60.730552673339
+        ]
+      },
+      "properties": {
+        "Id": "735",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Промышленные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6588897705078,
+          61.1134986877441
+        ]
+      },
+      "properties": {
+        "Id": "720",
+        "name": "Захламление",
+        "dateOfFind": "6.06.2024",
+        "type": "Промышленные",
+        "area": "0,4",
+        "dateOfLi": "25.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8730201721191,
+          61.2026710510253
+        ]
+      },
+      "properties": {
+        "Id": "419",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "17.4.2023",
+        "type": "Строительные",
+        "area": "10",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4696655273437,
+          60.686950683593
+        ]
+      },
+      "properties": {
+        "Id": "700",
+        "name": "Захламление",
+        "dateOfFind": "15.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": "12.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1095008850097,
+          64.7989425659179
+        ]
+      },
+      "properties": {
+        "Id": "795",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Лесопиление",
+        "area": "5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6698303222656,
+          61.1495552062988
+        ]
+      },
+      "properties": {
+        "Id": "659",
+        "name": "Захламление",
+        "dateOfFind": "16.5.2024",
+        "type": "Промышленные",
+        "area": "0,8",
+        "dateOfLi": "5.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7117462158203,
+          60.1367759704589
+        ]
+      },
+      "properties": {
+        "Id": "629",
+        "name": "Захламление",
+        "dateOfFind": "13.9.2023",
+        "type": "Бытовые",
+        "area": "1,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1042213439941,
+          64.76513671875
+        ]
+      },
+      "properties": {
+        "Id": "829",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.9098358154296,
+          59.5823898315429
+        ]
+      },
+      "properties": {
+        "Id": "776",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Строительные",
+        "area": "1,2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.917724609375,
+          61.60001373291
+        ]
+      },
+      "properties": {
+        "Id": "572",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "6.11.2018",
+        "type": "Бытовые",
+        "area": "345,8",
+        "dateOfLi": "5.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.7754898071289,
+          61.2095413208007
+        ]
+      },
+      "properties": {
+        "Id": "514",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "9.06.2017",
+        "type": "Строительные",
+        "area": "100",
+        "dateOfLi": "5.08.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4624481201171,
+          60.786666870117
+        ]
+      },
+      "properties": {
+        "Id": "706",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Бытовые",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4527511596679,
+          60.545272827148
+        ]
+      },
+      "properties": {
+        "Id": "696",
+        "name": "Захламление",
+        "dateOfFind": "15.5.2024",
+        "type": "Бытовые",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6659698486328,
+          61.1090850830078
+        ]
+      },
+      "properties": {
+        "Id": "723",
+        "name": "Захламление",
+        "dateOfFind": "6.06.2024",
+        "type": "Бытовые",
+        "area": "1",
+        "dateOfLi": "25.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.54816,
+          61.326
+        ]
+      },
+      "properties": {
+        "Id": "866",
+        "name": "Захламление",
+        "dateOfFind": "1.11.2024",
+        "type": "Промышленные",
+        "area": "60",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.6889724731445,
+          60.1165008544921
+        ]
+      },
+      "properties": {
+        "Id": "837",
+        "name": "Захламление»",
+        "dateOfFind": "31.5.2024",
+        "type": "Промышленные",
+        "area": "2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.63781738281,
+          60.9801177978515
+        ]
+      },
+      "properties": {
+        "Id": "530",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "11.7.2023",
+        "type": "Промышленные",
+        "area": "500",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.745864868164,
+          60.1083068847656
+        ]
+      },
+      "properties": {
+        "Id": "413",
+        "name": "Захламление",
+        "dateOfFind": "22.5.2024",
+        "type": "Промышленные",
+        "area": "0,9",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.3606567382812,
+          61.2746086120605
+        ]
+      },
+      "properties": {
+        "Id": "394",
+        "name": "Захламление",
+        "dateOfFind": "17.10.2023",
+        "type": "Лесопиление",
+        "area": "41",
+        "dateOfLi": "27.8.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.9974784851074,
+          61.9280586242675
+        ]
+      },
+      "properties": {
+        "Id": "495",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "25.11.2020",
+        "type": "Строительные",
+        "area": "30",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.1588897705078,
+          61.5986404418945
+        ]
+      },
+      "properties": {
+        "Id": "642",
+        "name": "Захламление",
+        "dateOfFind": "3.06.2024",
+        "type": "Строительные",
+        "area": "50",
+        "dateOfLi": "12.8.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.5591316223144,
+          61.3574981689453
+        ]
+      },
+      "properties": {
+        "Id": "589",
+        "name": "Захламление",
+        "dateOfFind": "24.5.2024",
+        "type": "Бытовые",
+        "area": "200",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.9182815551757,
+          61.11940002441
+        ]
+      },
+      "properties": {
+        "Id": "688",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Строительные",
+        "area": "0,2",
+        "dateOfLi": "23.6.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          662811.0,
+          613332.5
+        ]
+      },
+      "properties": {
+        "Id": "587",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "1.06.2022",
+        "type": "Лесопиление",
+        "area": "120",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.385437011718,
+          61.4659309387207
+        ]
+      },
+      "properties": {
+        "Id": "517",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "10.6.2014",
+        "type": "Промышленные",
+        "area": "460",
+        "dateOfLi": "19.6.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7141418457031,
+          60.1415557861328
+        ]
+      },
+      "properties": {
+        "Id": "821",
+        "name": "Захламление",
+        "dateOfFind": "31.5.2024",
+        "type": "Строительные",
+        "area": "3",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.89973449707,
+          64.669807434082
+        ]
+      },
+      "properties": {
+        "Id": "855",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Промышленные",
+        "area": "4",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8201141357421,
+          60.1192779541015
+        ]
+      },
+      "properties": {
+        "Id": "566",
+        "name": "Захламление",
+        "dateOfFind": "18.10.2023",
+        "type": "Строительные",
+        "area": "0,9",
+        "dateOfLi": "18.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.7957000732421,
+          60.583698272705
+        ]
+      },
+      "properties": {
+        "Id": "380",
+        "name": "Захламление",
+        "dateOfFind": "14.12.2023",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": "5.11.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.7097244262695,
+          60.1655540466308
+        ]
+      },
+      "properties": {
+        "Id": "744",
+        "name": "Захламление\"",
+        "dateOfFind": "17.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": "12.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1088333129882,
+          64.8038635253906
+        ]
+      },
+      "properties": {
+        "Id": "815",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Бытовые",
+        "area": "5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7308349609375,
+          60.1180572509765
+        ]
+      },
+      "properties": {
+        "Id": "568",
+        "name": "Захламление",
+        "dateOfFind": "18.10.2023",
+        "type": "Промышленные",
+        "area": "0,9",
+        "dateOfLi": "18.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.1943664550781,
+          60.297737121582
+        ]
+      },
+      "properties": {
+        "Id": "547",
+        "name": "ОбъектвГРОНВОС",
+        "dateOfFind": "31.5.2024",
+        "type": "Лесопиление",
+        "area": "1000",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.490608215332,
+          61.925827026367
+        ]
+      },
+      "properties": {
+        "Id": "506",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "7.07.2023",
+        "type": "Промышленные",
+        "area": "1164",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5874235449524,
+          61.1036557991143
+        ]
+      },
+      "properties": {
+        "Id": "501",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "8.10.2019",
+        "type": "Строительные",
+        "area": "1000",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.874443054199,
+          64.6897506713867
+        ]
+      },
+      "properties": {
+        "Id": "857",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Промышленные",
+        "area": "18",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1160278320312,
+          64.7312774658203
+        ]
+      },
+      "properties": {
+        "Id": "848",
+        "name": "Захламление",
+        "dateOfFind": "21.3.2024",
+        "type": "Промышленные",
+        "area": "20",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8456382751464,
+          61.1866378784179
+        ]
+      },
+      "properties": {
+        "Id": "755",
+        "name": "Захламление",
+        "dateOfFind": "22.1.2025",
+        "type": "Лесопиление",
+        "area": "1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7222518920898,
+          60.1374740600585
+        ]
+      },
+      "properties": {
+        "Id": "451",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Промышленные",
+        "area": "0,1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1092491149902,
+          64.7991943359375
+        ]
+      },
+      "properties": {
+        "Id": "794",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Промышленные",
+        "area": "1,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6449432373046,
+          61.1064147949218
+        ]
+      },
+      "properties": {
+        "Id": "690",
+        "name": "Захламление",
+        "dateOfFind": "17.6.2024",
+        "type": "Лесопиление",
+        "area": "500",
+        "dateOfLi": "8.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.8657608032226,
+          61.1991500854492
+        ]
+      },
+      "properties": {
+        "Id": "424",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "17.1.2018",
+        "type": "Строительные",
+        "area": "20",
+        "dateOfLi": "11.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.223007202148,
+          61.9281196594238
+        ]
+      },
+      "properties": {
+        "Id": "601",
+        "name": "Захламление",
+        "dateOfFind": "6.09.2023",
+        "type": "Промышленные",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.8724746704101,
+          60.9977760314941
+        ]
+      },
+      "properties": {
+        "Id": "667",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Промышленные",
+        "area": "0,6",
+        "dateOfLi": "3.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4672241210937,
+          60.622215270996
+        ]
+      },
+      "properties": {
+        "Id": "733",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Промышленные",
+        "area": "0",
+        "dateOfLi": "29.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.1749114990234,
+          61.9204406738281
+        ]
+      },
+      "properties": {
+        "Id": "478",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "1.05.2008",
+        "type": "Промышленные",
+        "area": "1000",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.625,
+          61.1500015258789
+        ]
+      },
+      "properties": {
+        "Id": "652",
+        "name": "Захламление",
+        "dateOfFind": "16.5.2024",
+        "type": "Лесопиление",
+        "area": "0,3",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8150558471679,
+          60.1572227478027
+        ]
+      },
+      "properties": {
+        "Id": "792",
+        "name": "Захламление",
+        "dateOfFind": "31.5.2024",
+        "type": "Бытовые",
+        "area": "0,4",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1077499389648,
+          64.7337799072265
+        ]
+      },
+      "properties": {
+        "Id": "844",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Промышленные",
+        "area": "1,5",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7264175415039,
+          60.1365280151367
+        ]
+      },
+      "properties": {
+        "Id": "439",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Лесопиление",
+        "area": "0,2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.9900588989257,
+          61.9497108459472
+        ]
+      },
+      "properties": {
+        "Id": "483",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "9.06.2015",
+        "type": "Строительные",
+        "area": "210",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.6513366699218,
+          61.1175537109375
+        ]
+      },
+      "properties": {
+        "Id": "718",
+        "name": "Захламление",
+        "dateOfFind": "6.06.2024",
+        "type": "Промышленные",
+        "area": "10",
+        "dateOfLi": "25.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.6771392822265,
+          61.165599822998
+        ]
+      },
+      "properties": {
+        "Id": "532",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "7.07.2017",
+        "type": "Промышленные",
+        "area": "3600",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.1450119018554,
+          61.515441894531
+        ]
+      },
+      "properties": {
+        "Id": "585",
+        "name": "Захламление",
+        "dateOfFind": "11.3.2024",
+        "type": "Бытовые",
+        "area": "91,9",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4739151000976,
+          62.3783073425292
+        ]
+      },
+      "properties": {
+        "Id": "575",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "25.8.2020",
+        "type": "Промышленные",
+        "area": "300",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7263031005859,
+          60.1365013122558
+        ]
+      },
+      "properties": {
+        "Id": "438",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "0,3",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": {}
+      },
+      "properties": {
+        "Id": "541",
+        "name": "Захламление",
+        "dateOfFind": "30.5.2024",
+        "type": "Бытовые",
+        "area": "25",
+        "dateOfLi": "11.10.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1165008544921,
+          64.6889724731445
+        ]
+      },
+      "properties": {
+        "Id": "865",
+        "name": "Захламление»",
+        "dateOfFind": "21.5.2023",
+        "type": "Строительные",
+        "area": "2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.8765029907226,
+          61.29983520507
+        ]
+      },
+      "properties": {
+        "Id": "663",
+        "name": "Захламление.",
+        "dateOfFind": "28.5.2024",
+        "type": "Строительные",
+        "area": "1",
+        "dateOfLi": "3.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.8656463623046,
+          60.9622383117675
+        ]
+      },
+      "properties": {
+        "Id": "579",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "27.7.2023",
+        "type": "Строительные",
+        "area": "4",
+        "dateOfLi": "20.8.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.8765029907226,
+          61.29983520507
+        ]
+      },
+      "properties": {
+        "Id": "670",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Строительные",
+        "area": "0,6",
+        "dateOfLi": "3.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.4705581665039,
+          60.822219848632
+        ]
+      },
+      "properties": {
+        "Id": "738",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Лесопиление",
+        "area": "0",
+        "dateOfLi": "29.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.8782501220703,
+          61.31929016113
+        ]
+      },
+      "properties": {
+        "Id": "662",
+        "name": "Захламление",
+        "dateOfFind": "18.7.2024",
+        "type": "Промышленные",
+        "area": "743",
+        "dateOfLi": "3.07.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.949440002441,
+          64.6464691162109
+        ]
+      },
+      "properties": {
+        "Id": "861",
+        "name": "Захламление\"",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.7011909484863,
+          61.1745643615722
+        ]
+      },
+      "properties": {
+        "Id": "584",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "1.06.2011",
+        "type": "Лесопиление",
+        "area": "6300",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.478889465332,
+          60.699996948242
+        ]
+      },
+      "properties": {
+        "Id": "737",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Промышленные",
+        "area": "0",
+        "dateOfLi": "29.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.453025817871,
+          60.577774047851
+        ]
+      },
+      "properties": {
+        "Id": "730",
+        "name": "Захламление",
+        "dateOfFind": "17.5.2024",
+        "type": "Строительные",
+        "area": "0",
+        "dateOfLi": "29.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.7750282287597,
+          61.2130012512207
+        ]
+      },
+      "properties": {
+        "Id": "513",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "9.06.2017",
+        "type": "Строительные",
+        "area": "100",
+        "dateOfLi": "9.10.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.6682815551757,
+          60.1588325500488
+        ]
+      },
+      "properties": {
+        "Id": "616",
+        "name": "ЗахламлениеN60°9'31.8\"E64°40'5.8\"",
+        "dateOfFind": "19.9.2023",
+        "type": "Бытовые",
+        "area": "3,2",
+        "dateOfLi": "27.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.9495697021484,
+          61.607299804687
+        ]
+      },
+      "properties": {
+        "Id": "573",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "18.6.2018",
+        "type": "Промышленные",
+        "area": "0",
+        "dateOfLi": "28.5.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.9175033569335,
+          63.7767448425292
+        ]
+      },
+      "properties": {
+        "Id": "594",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "1.01.2018",
+        "type": "Бытовые",
+        "area": "300",
+        "dateOfLi": "31.10.2025"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5753173828125,
+          61.1023788452148
+        ]
+      },
+      "properties": {
+        "Id": "725",
+        "name": "Захламление",
+        "dateOfFind": "20.6.2024",
+        "type": "Промышленные",
+        "area": "1",
+        "dateOfLi": "21.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1095275878906,
+          64.806167602539
+        ]
+      },
+      "properties": {
+        "Id": "805",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Бытовые",
+        "area": "7",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7266693115234,
+          60.1368064880371
+        ]
+      },
+      "properties": {
+        "Id": "445",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Промышленные",
+        "area": "0,1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.5730285644531,
+          60.187442779541
+        ]
+      },
+      "properties": {
+        "Id": "801",
+        "name": "Захламление",
+        "dateOfFind": "6.06.2024",
+        "type": "Строительные",
+        "area": "2600000",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.100471496582,
+          64.6736145019531
+        ]
+      },
+      "properties": {
+        "Id": "858",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "20",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.665412902832,
+          61.1085815429687
+        ]
+      },
+      "properties": {
+        "Id": "721",
+        "name": "Захламление",
+        "dateOfFind": "6.06.2024",
+        "type": "Бытовые",
+        "area": "10",
+        "dateOfLi": "25.7.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1123886108398,
+          64.698387145996
+        ]
+      },
+      "properties": {
+        "Id": "863",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2025",
+        "type": "Строительные",
+        "area": "4",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1089439392089,
+          64.8022537231445
+        ]
+      },
+      "properties": {
+        "Id": "817",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Бытовые",
+        "area": "20",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1080818176269,
+          64.7463912963867
+        ]
+      },
+      "properties": {
+        "Id": "836",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Промышленные",
+        "area": "7",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8092803955078,
+          60.1282234191894
+        ]
+      },
+      "properties": {
+        "Id": "405",
+        "name": "Захламление",
+        "dateOfFind": "19.9.2023",
+        "type": "Бытовые",
+        "area": "0,1",
+        "dateOfLi": "18.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.94970703125,
+          64.6463623046875
+        ]
+      },
+      "properties": {
+        "Id": "859",
+        "name": "Захламление\"",
+        "dateOfFind": "21.5.2024",
+        "type": "Бытовые",
+        "area": "6",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8196640014648,
+          60.1193351745605
+        ]
+      },
+      "properties": {
+        "Id": "569",
+        "name": "Захламление",
+        "dateOfFind": "18.10.2023",
+        "type": "Промышленные",
+        "area": "0,9",
+        "dateOfLi": "18.9.2024"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.1141929626464,
+          64.7029418945312
+        ]
+      },
+      "properties": {
+        "Id": "864",
+        "name": "Захламление",
+        "dateOfFind": "21.5.2024",
+        "type": "Строительные",
+        "area": "50",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.93,
+          61.14452
+        ]
+      },
+      "properties": {
+        "Id": "531",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "16.10.2023",
+        "type": "Промышленные",
+        "area": "800",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.8331680297851,
+          61.6331672668457
+        ]
+      },
+      "properties": {
+        "Id": "376",
+        "name": "СвалкапоППРФ№542",
+        "dateOfFind": "6.09.2010",
+        "type": "Бытовые",
+        "area": "1500",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8216934204101,
+          60.1253318786621
+        ]
+      },
+      "properties": {
+        "Id": "632",
+        "name": "Захламление",
+        "dateOfFind": "13.9.2023",
+        "type": "Промышленные",
+        "area": "10",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.7265014648437,
+          60.1365013122558
+        ]
+      },
+      "properties": {
+        "Id": "437",
+        "name": "Захламление",
+        "dateOfFind": "5.09.2023",
+        "type": "Строительные",
+        "area": "0,1",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.427447,
+          61.259246
+        ]
+      },
+      "properties": {
+        "Id": "564",
+        "name": "",
+        "dateOfFind": "14.5.2024",
+        "type": "Бытовые",
+        "area": "0",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          65.926025390625,
+          59.5802764892578
+        ]
+      },
+      "properties": {
+        "Id": "778",
+        "name": "Захламление",
+        "dateOfFind": "28.5.2024",
+        "type": "Строительные",
+        "area": "2",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": {}
+      },
+      "properties": {
+        "Id": "",
+        "name": "",
+        "dateOfFind": "",
+        "type": "",
+        "area": "",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": {}
+      },
+      "properties": {
+        "Id": "",
+        "name": "",
+        "dateOfFind": "",
+        "type": "",
+        "area": "",
+        "dateOfLi": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": {}
+      },
+      "properties": {
+        "Id": "",
+        "name": "",
+        "dateOfFind": "",
+        "type": "",
+        "area": "",
+        "dateOfLi": ""
+      }
+    }
+  ]
+}
