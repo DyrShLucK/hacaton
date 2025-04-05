@@ -1,639 +1,802 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Мониторинг свалок ХМАО-Югра</title>
     <!-- OpenLayers -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css"
+    />
     <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jschardet@3.0.0/dist/jschardet.min.js"></script>
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <style>
-        #map {
-            width: 100%;
-            height: calc(100vh - 60px);
-            margin-top: 60px;
-        }
-        .navbar {
-            background: #2c3e50 !important;
-        }
-        .info-panel {
-            position: absolute;
-            top: 80px;
-            right: 20px;
-            width: 350px;
-            background: white;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            z-index: 1000;
-            border-radius: 12px;
-    border: 1px solid #dee2e6;
-        }
-        .info-panel h5 {
-    border-bottom: 2px solid #0d6efd;
-    padding-bottom: 8px;
-    margin-bottom: 15px;
-}
-.legend svg {
-    margin-right: 8px;
-}
-        .ol-popup {
-            position: absolute;
-            background: white;
-            padding: 15px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.2);
-            width: 400px;
-        }
-        .legend {
-            position: absolute;
-            bottom: 20px;
-            left: 20px;
-            background: white;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            width: 200px;
-        }
-        .layer-btn {
-    width: 48%;
-    transition: all 0.3s ease;
-    opacity: 0.8;
-    border: 2px solid transparent;
-    margin-bottom: 10px;
-}
+      #map {
+        width: 100%;
+        height: calc(100vh - 60px);
+        margin-top: 60px;
+      }
+      .navbar {
+        background: #2c3e50 !important;
+      }
+      .info-panel {
+        position: absolute;
+        top: 80px;
+        right: 20px;
+        width: 350px;
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        border-radius: 12px;
+        border: 1px solid #dee2e6;
+      }
+      .info-panel h5 {
+        border-bottom: 2px solid #0d6efd;
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+      }
+      .legend svg {
+        margin-right: 8px;
+      }
+      .ol-popup {
+        position: absolute;
+        background: white;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        width: 400px;
+      }
+      .legend {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        background: white;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 200px;
+      }
+      .layer-btn {
+        width: 48%;
+        transition: all 0.3s ease;
+        opacity: 0.8;
+        border: 2px solid transparent;
+        margin-bottom: 10px;
+      }
 
-.layer-btn:hover {
-    border-color: #0d6efd;
-    opacity: 1;
-}
+      .layer-btn:hover {
+        border-color: #0d6efd;
+        opacity: 1;
+      }
 
-.layer-btn.active {
-    background: #0d6efd;
-    color: white;
-    opacity: 1;
-    border-color: #0d6efd;
-    box-shadow: 0 0 8px rgba(13, 110, 253, 0.3);
-}
-.form-select {
-    background-color: #f8f9fa;
-    border: 2px solid #ced4da;
-    border-radius: 10px;
-    padding: 8px 12px;
-    transition: border-color 0.3s ease;
-}
+      .layer-btn.active {
+        background: #0d6efd;
+        color: white;
+        opacity: 1;
+        border-color: #0d6efd;
+        box-shadow: 0 0 8px rgba(13, 110, 253, 0.3);
+      }
+      .form-select {
+        background-color: #f8f9fa;
+        border: 2px solid #ced4da;
+        border-radius: 10px;
+        padding: 8px 12px;
+        transition: border-color 0.3s ease;
+      }
 
-.form-select:focus {
-    border-color: #0d6efd;
-    box-shadow: 0 0 0 2px rgba(13, 110, 253, 0.25);
-    background-color: white;
-}
-.alert-primary {
-    background: #cfe2ff;
-    border-color: #b6d4fe;
-    color: #084298;
-    border-radius: 10px;
-    padding: 12px;
-}
-#photoPreview {
-    object-fit: contain;
-    width: 100%;
-    height: 200px;
-    background: #f8f9fa;
-    border: 1px solid #dee2e6;
-    border-radius: 6px;
-}
-.popup-image-container {
-    height: 200px;
-    margin-bottom: 15px;
-    border-radius: 8px;
-    overflow: hidden;
-    background: #f8f9fa;
-}
+      .form-select:focus {
+        border-color: #0d6efd;
+        box-shadow: 0 0 0 2px rgba(13, 110, 253, 0.25);
+        background-color: white;
+      }
+      .alert-primary {
+        background: #cfe2ff;
+        border-color: #b6d4fe;
+        color: #084298;
+        border-radius: 10px;
+        padding: 12px;
+      }
+      #photoPreview {
+        object-fit: contain;
+        width: 100%;
+        height: 200px;
+        background: #f8f9fa;
+        border: 1px solid #dee2e6;
+        border-radius: 6px;
+      }
+      .popup-image-container {
+        height: 200px;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        overflow: hidden;
+        background: #f8f9fa;
+      }
 
-.popup-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+      .popup-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Навигационная панель -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container-fluid">
-            <span class="navbar-brand">ЭкоМониторинг ХМАО</span>
-            <div class="d-flex align-items-center">
-                <div class="me-3">
-                    <button class="btn btn-outline-light me-2" onclick="fullscreenMap()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"/>
-                        </svg>
-                    </button>
-                    <button class="btn btn-outline-light" onclick="toggleInfo()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
-                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.809-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.293-.287a1.007 1.007 0 0 0-.469-.305L8.124 4.664a.906.906 0 0 1 .168-.13l.31.176a1.007 1.007 0 0 0 .304-.419l.724-.69c.218-.203.246-.529.04-.705L8.874 5.071a1.007 1.007 0 0 0-.706-.293z"/>
-                        </svg>
-                    </button>
-                </div>
-            </div>
+      <div class="container-fluid">
+        <span class="navbar-brand">ЭкоМониторинг ХМАО</span>
+        <div class="d-flex align-items-center">
+          <div class="me-3">
+            <button
+              class="btn btn-outline-light me-2"
+              onclick="fullscreenMap()"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrows-fullscreen"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"
+                />
+              </svg>
+            </button>
+            <button class="btn btn-outline-light" onclick="toggleInfo()">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-info-circle-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.809-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.293-.287a1.007 1.007 0 0 0-.469-.305L8.124 4.664a.906.906 0 0 1 .168-.13l.31.176a1.007 1.007 0 0 0 .304-.419l.724-.69c.218-.203.246-.529.04-.705L8.874 5.071a1.007 1.007 0 0 0-.706-.293z"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
+      </div>
     </nav>
     <!-- Основная карта -->
     <div id="map"></div>
     <!-- Боковая панель информации -->
     <div class="info-panel" id="infoPanel">
-        <h5>Информация</h5>
-        <div class="mb-3">
-            <p>Отображается объектов: <span id="totalObjects">0</span></p>
-        </div>
-        
-        <div class="d-flex gap-2 mb-3">
-            <button class="btn btn-secondary layer-btn" onclick="toggleLayer('landfill')">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
-                    <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z"/>
-                </svg> Свалки
-            </button>
-            <button class="btn btn-secondary layer-btn" onclick="toggleLayer('points')">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                </svg> Точки
-            </button>
-        </div>
-        <div class="mb-3">
-            <select class="form-select" id="statusFilter">
-                <option value="">Все статусы</option>
-                <option value="active">Не ликвидированные</option>
-                <option value="liquidated">Ликвидированные</option>
-            </select>
-        </div>
-        <div class="mb-3">
-            <select class="form-select" id="typeFilter">
-                <option value="">Все типы</option>
-                <option value="Бытовые">Бытовые</option>
-                <option value="Строительные">Строительные</option>
-                <option value="Промышленные">Промышленные</option>
-                <option value="Лесопиление">Лесопиление</option>
-            </select>
-        </div>
-        <div class="btn-group w-100 mb-3" role="group">
-            <input type="radio" class="btn-check" name="baseLayer" id="osmRadio" autocomplete="off" checked>
-            <label class="btn btn-outline-secondary w-50" for="osmRadio">OSM</label>
-            
-            <input type="radio" class="btn-check" name="baseLayer" id="satelliteRadio" autocomplete="off">
-            <label class="btn btn-outline-secondary w-50" for="satelliteRadio">Спутник</label>
-          </div>
-        <div class="alert alert-primary" role="alert">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle-fill me-2" viewBox="0 0 16 16">
-                <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767zM8 5.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 5.5m0 4a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 9.5"/>
-            </svg>
-            Вы можете сообщить о новой свалке через форму обратной связи
-        </div>
-        <button class="btn btn-primary w-100" onclick="showReportForm()">Сообщить о свалке</button>
+      <h5>Информация</h5>
+      <div class="mb-3">
+        <p>Отображается объектов: <span id="totalObjects">0</span></p>
+      </div>
+
+      <div class="d-flex gap-2 mb-3">
+        <button
+          class="btn btn-secondary layer-btn"
+          onclick="toggleLayer('landfill')"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            fill="currentColor"
+            class="bi bi-trash3"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z"
+            />
+          </svg>
+          Свалки
+        </button>
+        <button
+          class="btn btn-secondary layer-btn"
+          onclick="toggleLayer('points')"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            fill="currentColor"
+            class="bi bi-geo-alt-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+            />
+          </svg>
+          Точки
+        </button>
+      </div>
+      <div class="mb-3">
+        <select class="form-select" id="statusFilter">
+          <option value="">Все статусы</option>
+          <option value="active">Не ликвидированные</option>
+          <option value="liquidated">Ликвидированные</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <select class="form-select" id="typeFilter">
+          <option value="">Все типы</option>
+          <option value="Бытовые">Бытовые</option>
+          <option value="Строительные">Строительные</option>
+          <option value="Промышленные">Промышленные</option>
+          <option value="Лесопиление">Лесопиление</option>
+        </select>
+      </div>
+      <div class="btn-group w-100 mb-3" role="group">
+        <input
+          type="radio"
+          class="btn-check"
+          name="baseLayer"
+          id="osmRadio"
+          autocomplete="off"
+          checked
+        />
+        <label class="btn btn-outline-secondary w-50" for="osmRadio">OSM</label>
+
+        <input
+          type="radio"
+          class="btn-check"
+          name="baseLayer"
+          id="satelliteRadio"
+          autocomplete="off"
+        />
+        <label class="btn btn-outline-secondary w-50" for="satelliteRadio"
+          >Спутник</label
+        >
+      </div>
+      <div class="alert alert-primary" role="alert">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-exclamation-triangle-fill me-2"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767zM8 5.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 5.5m0 4a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 9.5"
+          />
+        </svg>
+        Вы можете сообщить о новой свалке через форму обратной связи
+      </div>
+      <button class="btn btn-primary w-100" onclick="showReportForm()">
+        Сообщить о свалке
+      </button>
     </div>
     <!-- Легенда -->
     <div class="legend">
-        <h6>Легенда</h6>
-        <div class="d-flex align-items-center mb-2">
-            <svg width="20" height="20"><rect width="20" height="20" fill="#dc3545" fill-opacity="0.2"/></svg>
-            <span class="ms-2">Бытовые</span>
-        </div>
-        <div class="d-flex align-items-center mb-2">
-            <svg width="20" height="20"><rect width="20" height="20" fill="#20c997" fill-opacity="0.2"/></svg>
-            <span class="ms-2">Строительные</span>
-        </div>
-        <div class="d-flex align-items-center mb-2">
-            <svg width="20" height="20"><rect width="20" height="20" fill="#0d6efd" fill-opacity="0.2"/></svg>
-            <span class="ms-2">Промышленные</span>
-        </div>
-        <div class="d-flex align-items-center">
-            <svg width="20" height="20"><rect width="20" height="20" fill="#8B4513" fill-opacity="0.2"/></svg>
-            <span class="ms-2">Лесопиление</span>
-        </div>
+      <h6>Легенда</h6>
+      <div class="d-flex align-items-center mb-2">
+        <svg width="20" height="20">
+          <rect width="20" height="20" fill="#dc3545" fill-opacity="0.2" />
+        </svg>
+        <span class="ms-2">Бытовые</span>
+      </div>
+      <div class="d-flex align-items-center mb-2">
+        <svg width="20" height="20">
+          <rect width="20" height="20" fill="#20c997" fill-opacity="0.2" />
+        </svg>
+        <span class="ms-2">Строительные</span>
+      </div>
+      <div class="d-flex align-items-center mb-2">
+        <svg width="20" height="20">
+          <rect width="20" height="20" fill="#0d6efd" fill-opacity="0.2" />
+        </svg>
+        <span class="ms-2">Промышленные</span>
+      </div>
+      <div class="d-flex align-items-center">
+        <svg width="20" height="20">
+          <rect width="20" height="20" fill="#8B4513" fill-opacity="0.2" />
+        </svg>
+        <span class="ms-2">Лесопиление</span>
+      </div>
     </div>
     <!-- Попап для деталей -->
     <div id="popup" class="ol-popup">
-        <div id="popup-content"></div>
+      <div id="popup-content"></div>
     </div>
     <!-- Форма обратной связи -->
     <div class="modal fade" id="reportModal" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Сообщить о свалке</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Сообщить о свалке</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label>Местоположение</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="reportLocation"
+                  readonly
+                />
+              </div>
+              <div class="mb-3">
+                <label>Тип отходов</label>
+                <select class="form-select" id="reportType">
+                  <option>Бытовые</option>
+                  <option>Строительные</option>
+                  <option>Промышленные</option>
+                  <option>Лесопиление</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label>Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="emailInput"
+                  placeholder="Введите ваш email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label>Описание</label>
+                <textarea class="form-control" rows="3"></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="photoInput" class="form-label"
+                  >Фотография свалки</label
+                >
+                <input
+                  class="form-control"
+                  type="file"
+                  id="photoInput"
+                  accept="image/*"
+                />
+                <div
+                  class="mt-2"
+                  id="photoPreviewContainer"
+                  style="display: none"
+                >
+                  <div class="ratio ratio-4x3">
+                    <!-- Сохраняет пропорции 4:3 -->
+                    <img id="photoPreview" class="img-fluid rounded" />
+                  </div>
                 </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                            <label>Местоположение</label>
-                            <input type="text" class="form-control" id="reportLocation" readonly>
-                        </div>
-                        <div class="mb-3">
-                            <label>Тип отходов</label>
-                            <select class="form-select" id="reportType">
-                                <option>Бытовые</option>
-                                <option>Строительные</option>
-                                <option>Промышленные</option>
-                                <option>Лесопиление</option>
-                            </select>
-                        </div>
-                        <div class="mb-3">
-                            <label>Email</label>
-                            <input type="email" class="form-control" id="emailInput" placeholder="Введите ваш email" name="email"required>
-                        </div>
-                        <div class="mb-3">
-                            <label>Описание</label>
-                            <textarea class="form-control" rows="3"></textarea>
-                        </div>
-                        <div class="mb-3">
-                            <label for="photoInput" class="form-label">Фотография свалки</label>
-                            <input class="form-control" type="file" id="photoInput" accept="image/*">
-                            <div class="mt-2" id="photoPreviewContainer" style="display: none">
-                                <div class="ratio ratio-4x3"> <!-- Сохраняет пропорции 4:3 -->
-                                    <img id="photoPreview" class="img-fluid rounded">
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отмена</button>
-                    <button type="button" class="btn btn-primary">Отправить</button>
-                </div>
-            </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Отмена
+            </button>
+            <button type="button" class="btn btn-primary">Отправить</button>
+          </div>
         </div>
+      </div>
     </div>
     <script>
-        // Инициализация карты
-        const osmLayer = new ol.layer.Tile({
-  source: new ol.source.OSM(),
-  zIndex: 0
-});
+      // Инициализация карты
+      const osmLayer = new ol.layer.Tile({
+        source: new ol.source.OSM(),
+        zIndex: 0,
+      });
 
-const satelliteLayer = new ol.layer.Tile({
-  source: new ol.source.XYZ({
-    url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-    attributions: 'Tiles © Esri'
-  }),
-  visible: false,
-  zIndex: 0
-});
+      const satelliteLayer = new ol.layer.Tile({
+        source: new ol.source.XYZ({
+          url: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+          attributions: "Tiles © Esri",
+        }),
+        visible: false,
+        zIndex: 0,
+      });
 
-// Инициализация карты
+      // Инициализация карты
 
-        // Векторные слои
-        const landfillSource = new ol.source.Vector();
-        const pointsSource = new ol.source.Vector();
-        const landfillLayer = new ol.layer.Vector({
-            source: landfillSource,
-            style: (feature) => {
-                const type = feature.get('type');
-                let color;
-                switch(type) {
-                    case 'Бытовые':
-                        color = '#dc3545';
-                        break;
-                    case 'Строительные':
-                        color = '#20c997';
-                        break;
-                    case 'Промышленные':
-                        color = '#0d6efd';
-                        break;
-                    case 'Лесопиление':
-                        color = '#8B4513';
-                        break;
-                    default:
-                        color = '#6c757d';
-                }
+      // Векторные слои
+      const landfillSource = new ol.source.Vector();
+      const pointsSource = new ol.source.Vector();
+      const landfillLayer = new ol.layer.Vector({
+        source: landfillSource,
+        style: (feature) => {
+          const type = feature.get("type");
+          let color;
+          switch (type) {
+            case "Бытовые":
+              color = "#dc3545";
+              break;
+            case "Строительные":
+              color = "#20c997";
+              break;
+            case "Промышленные":
+              color = "#0d6efd";
+              break;
+            case "Лесопиление":
+              color = "#8B4513";
+              break;
+            default:
+              color = "#6c757d";
+          }
 
-                return new ol.style.Style({
-                    stroke: new ol.style.Stroke({ color, width: 2 }),
-                    fill: new ol.style.Fill({ color: ol.color.asString(ol.color.asArray(color).concat(0.2)) })
-                });
+          return new ol.style.Style({
+            stroke: new ol.style.Stroke({ color, width: 2 }),
+            fill: new ol.style.Fill({
+              color: ol.color.asString(ol.color.asArray(color).concat(0.2)),
+            }),
+          });
+        },
+      });
+
+      const pointsLayer = new ol.layer.Vector({
+        source: pointsSource,
+        style:
+          //лагучая ерунда(тк 28к точек было), но рабочая
+          (feature) => {
+            const type = feature.get("type");
+
+            let color;
+            switch (type) {
+              case "Бытовые":
+                color = "#dc3545";
+                break;
+              case "Строительные":
+                color = "#20c997";
+                break;
+              case "Промышленные":
+                color = "#0d6efd";
+                break;
+              case "Лесопиление":
+                color = "#8B4513";
+                break;
+              default:
+                color = "#6c757d";
             }
-        });
- 
-
-        
-        const pointsLayer = new ol.layer.Vector({
-            source: pointsSource,
-            style: 
-            //лагучая ерунда(тк 28к точек было), но рабочая
-            (feature) => {
-                const type = feature.get('type');
-
-                let color;
-                switch(type) {
-                    case 'Бытовые':
-                        color = '#dc3545';
-                        break;
-                    case 'Строительные':
-                        color = '#20c997';
-                        break;
-                    case 'Промышленные':
-                        color = '#0d6efd';
-                        break;
-                    case 'Лесопиление':
-                        color = '#8B4513';
-                        break;
-                    default:
-                        color = '#6c757d';
-                }
-                return new ol.style.Style({
-                image: new ol.style.Circle({
-                    radius: 8,
-                    fill: new ol.style.Fill({ color: color }),
-                    stroke: new ol.style.Stroke({ color: '#004b93', width: 2 })
-                })
-            })
-            }
-            
-            
-            
-        });
-        const map = new ol.Map({
-  target: 'map',
-  layers: [
-    osmLayer,
-    satelliteLayer,
-    landfillLayer,
-    pointsLayer
-  ],
-  view: new ol.View({
-    center: ol.proj.fromLonLat([76.0, 61.0]),
-    zoom: 7
-  })
-});
-document.querySelectorAll('input[name="baseLayer"]').forEach(input => {
-    input.addEventListener('change', function() {
-        osmLayer.setVisible(this.id === 'osmRadio');
-        satelliteLayer.setVisible(this.id === 'satelliteRadio');
-    });
-});
-        // Попап
-        const popup = new ol.Overlay({
-            element: document.getElementById('popup'),
-            positioning: 'bottom-center'
-        });
-        map.addOverlay(popup);
-        // Переменные для фильтрации
-        let currentFilter = '';
-        let landfillVisible = false;
-        let pointsVisible = false;
-        let landfillLoaded = false;
-        let pointsLoaded = false;
-        const validFilters = ['Лесопиление', 'Промышленные', 'Строительные', 'Бытовые']; 
-        const transparentPolygonStyle = new ol.style.Style({
-                        fill: new ol.style.Fill({
-                        color: 'rgba(0,0,0,0)' // Полностью прозрачная заливка
-                    }),
-                    stroke: new ol.style.Stroke({
-                    color: 'rgba(0,0,0,0)', // Прозрачная обводка
-                    width: 0 // Нулевая толщина линии
-                    })
-                    });
-                    const transparentStyle = new ol.style.Style({
-    image: new ol.style.Circle({
-        radius: 8,
-        fill: new ol.style.Fill({ color: 'rgba(0,0,0,0)' }), // Полная прозрачность
-        stroke: new ol.style.Stroke({ color: 'rgba(0,0,0,0)', width: 0 })
-    })
-});
-        
-        // Функция обновления фильтра
-        // Добавляем обработчик для нового фильтра
-document.getElementById('statusFilter').addEventListener('change', updateFilter);
-
-function updateFilter() {
-    const typeFilter = document.getElementById('typeFilter').value;
-    const statusFilter = document.getElementById('statusFilter').value;
-    
-    // Для полигональных свалок
-    landfillSource.forEachFeature((feature) => {
-        const showType = typeFilter === '' || feature.get('type') === typeFilter;
-        const showStatus = checkStatus(feature, statusFilter);
-        
-        feature.setStyle(landfillVisible && showType && showStatus 
-            ? landfillLayer.getStyle()(feature) 
-            : transparentPolygonStyle);
-    });
-
-    // Для точечных объектов
-    pointsSource.forEachFeature((feature) => {
-        const showType = typeFilter === '' || feature.get('type') === typeFilter;
-        const showStatus = checkStatus(feature, statusFilter);
-        
-        feature.setStyle(pointsVisible && showType && showStatus 
-            ? pointsLayer.getStyle()(feature) 
-            : transparentStyle);
-    });
-    
-    updateStats();
-}
-
-// Новая функция проверки статуса
-function checkStatus(feature, filter) {
-    if (filter === '') return true;
-    
-    const isLiquidated = !!feature.get('dateOfLi');
-    return (filter === 'active' && !isLiquidated) || 
-           (filter === 'liquidated' && isLiquidated);
-}
-        // Функция обновления статистики
-        function updateStats() {
-    let count = 0;
-    const statusFilter = document.getElementById('statusFilter').value;
-    const typeFilter = document.getElementById('typeFilter').value; // Добавить эту строку
-    
-    if (landfillVisible) {
-        const filtered = landfillSource.getFeatures().filter(f => 
-            (typeFilter === '' || f.get('type') === typeFilter) &&
-            checkStatus(f, statusFilter)
-        );
-        count += filtered.length;
-    }
-    
-    if (pointsVisible) {
-        const filtered = pointsSource.getFeatures().filter(f => 
-            (typeFilter === '' || f.get('type') === typeFilter) &&
-            checkStatus(f, statusFilter)
-        );
-        count += filtered.length;
-    }
-    
-    document.getElementById('totalObjects').innerText = count;
-}
-        // Обработчики элементов управления
-        document.getElementById('typeFilter').addEventListener('change', updateFilter);
-
-        
-        // Загрузка данных
-        async function loadLandfills() {
-            try {
-                const response = await fetch('landfills.geojson');
-                if (!response.ok) throw new Error('Ошибка загрузки файла');
-                const data = await response.json();
-                const format = new ol.format.GeoJSON();
-                const features = format.readFeatures(data, { featureProjection: 'EPSG:3857' });
-                landfillSource.addFeatures(features);
-                if (features.length > 0) {
-                    const extent = landfillSource.getExtent();
-                    map.getView().fit(extent, { padding: [50,50,50,50], duration: 1000 });
-                }
-                updateStats();
-            } catch (error) {
-                console.error('Ошибка:', error);
-                alert('Не удалось загрузить данные свалок. Проверьте:\n1. Наличие файла landfills.geojson\n2. Корректность геометрии полигонов\n3. Формат координат (долгота, широта)');
-            }
-        }
-        async function detectFileEncoding(fileUrl) {
-    const response = await fetch(fileUrl);
-    const buffer = await response.arrayBuffer();
-    const detected = jschardet.detect(buffer);
-    return detected.encoding;
-}
-        async function loadPoints() {
-            try {
-                const response = await fetch('tochka.geojson');
-                detectFileEncoding('tochka.geojson')
-                .then(encoding => console.log('Определенная кодировка:', encoding))
-                if (!response.ok) throw new Error('Ошибка загрузки файла');
-                const data = await response.json();
-                const format = new ol.format.GeoJSON();
-                const features = format.readFeatures(data, { featureProjection: 'EPSG:3857' });
-                pointsSource.addFeatures(features);
-                if (features.length > 0) {
-                    const extent = pointsSource.getExtent();
-                    map.getView().fit(extent, { padding: [50,50,50,50], duration: 1000 });
-                }
-                updateStats();
-            } catch (error) {
-                console.error('Ошибка:', error);
-                alert('Не удалось загрузить точки. Проверьте наличие файла points.geojson');
-            }
-        }
-        // Обработчик кликов
-        map.on('click', (evt) => {
-            let feature = null;
-            map.forEachFeatureAtPixel(evt.pixel, (f) => {
-                if (landfillVisible && f.getGeometry().getType() === 'Polygon') {
-                    feature = f;
-                } else if (pointsVisible && f.getGeometry().getType() === 'Point') {
-                    feature = f;
-                   
-                }
+            return new ol.style.Style({
+              image: new ol.style.Circle({
+                radius: 8,
+                fill: new ol.style.Fill({ color: color }),
+                stroke: new ol.style.Stroke({ color: "#004b93", width: 2 }),
+              }),
             });
-            if (feature) {
-                const props = feature.getProperties();
-                console.log(feature)
-                console.log(feature.getProperties())
-                const geomType = feature.getGeometry().getType();
-                let coords = evt.coordinate;
-                if (geomType === 'Polygon') {
-                    coords = feature.getGeometry().getCoordinates()[0][0];
-                }
-                
-                popup.setPosition(coords);
-                document.getElementById('popup-content').innerHTML = `
+          },
+      });
+      const map = new ol.Map({
+        target: "map",
+        layers: [osmLayer, satelliteLayer, landfillLayer, pointsLayer],
+        view: new ol.View({
+          center: ol.proj.fromLonLat([76.0, 61.0]),
+          zoom: 7,
+        }),
+      });
+      document.querySelectorAll('input[name="baseLayer"]').forEach((input) => {
+        input.addEventListener("change", function () {
+          osmLayer.setVisible(this.id === "osmRadio");
+          satelliteLayer.setVisible(this.id === "satelliteRadio");
+        });
+      });
+      // Попап
+      const popup = new ol.Overlay({
+        element: document.getElementById("popup"),
+        positioning: "bottom-center",
+      });
+      map.addOverlay(popup);
+      // Переменные для фильтрации
+      let currentFilter = "";
+      let landfillVisible = false;
+      let pointsVisible = false;
+      let landfillLoaded = false;
+      let pointsLoaded = false;
+      const validFilters = [
+        "Лесопиление",
+        "Промышленные",
+        "Строительные",
+        "Бытовые",
+      ];
+      const transparentPolygonStyle = new ol.style.Style({
+        fill: new ol.style.Fill({
+          color: "rgba(0,0,0,0)", // Полностью прозрачная заливка
+        }),
+        stroke: new ol.style.Stroke({
+          color: "rgba(0,0,0,0)", // Прозрачная обводка
+          width: 0, // Нулевая толщина линии
+        }),
+      });
+      const transparentStyle = new ol.style.Style({
+        image: new ol.style.Circle({
+          radius: 8,
+          fill: new ol.style.Fill({ color: "rgba(0,0,0,0)" }), // Полная прозрачность
+          stroke: new ol.style.Stroke({ color: "rgba(0,0,0,0)", width: 0 }),
+        }),
+      });
+
+      // Функция обновления фильтра
+      // Добавляем обработчик для нового фильтра
+      document
+        .getElementById("statusFilter")
+        .addEventListener("change", updateFilter);
+
+      function updateFilter() {
+        const typeFilter = document.getElementById("typeFilter").value;
+        const statusFilter = document.getElementById("statusFilter").value;
+
+        // Для полигональных свалок
+        landfillSource.forEachFeature((feature) => {
+          const showType =
+            typeFilter === "" || feature.get("type") === typeFilter;
+          const showStatus = checkStatus(feature, statusFilter);
+
+          feature.setStyle(
+            landfillVisible && showType && showStatus
+              ? landfillLayer.getStyle()(feature)
+              : transparentPolygonStyle
+          );
+        });
+
+        // Для точечных объектов
+        pointsSource.forEachFeature((feature) => {
+          const showType =
+            typeFilter === "" || feature.get("type") === typeFilter;
+          const showStatus = checkStatus(feature, statusFilter);
+
+          feature.setStyle(
+            pointsVisible && showType && showStatus
+              ? pointsLayer.getStyle()(feature)
+              : transparentStyle
+          );
+        });
+
+        updateStats();
+      }
+
+      // Новая функция проверки статуса
+      function checkStatus(feature, filter) {
+        if (filter === "") return true;
+
+        const isLiquidated = !!feature.get("dateOfLi");
+        return (
+          (filter === "active" && !isLiquidated) ||
+          (filter === "liquidated" && isLiquidated)
+        );
+      }
+      // Функция обновления статистики
+      function updateStats() {
+        let count = 0;
+        const statusFilter = document.getElementById("statusFilter").value;
+        const typeFilter = document.getElementById("typeFilter").value; // Добавить эту строку
+
+        if (landfillVisible) {
+          const filtered = landfillSource
+            .getFeatures()
+            .filter(
+              (f) =>
+                (typeFilter === "" || f.get("type") === typeFilter) &&
+                checkStatus(f, statusFilter)
+            );
+          count += filtered.length;
+        }
+
+        if (pointsVisible) {
+          const filtered = pointsSource
+            .getFeatures()
+            .filter(
+              (f) =>
+                (typeFilter === "" || f.get("type") === typeFilter) &&
+                checkStatus(f, statusFilter)
+            );
+          count += filtered.length;
+        }
+
+        document.getElementById("totalObjects").innerText = count;
+      }
+      // Обработчики элементов управления
+      document
+        .getElementById("typeFilter")
+        .addEventListener("change", updateFilter);
+
+      // Загрузка данных
+      async function loadLandfills() {
+        try {
+          const response = await fetch("landfills.geojson");
+          if (!response.ok) throw new Error("Ошибка загрузки файла");
+          const data = await response.json();
+          const format = new ol.format.GeoJSON();
+          const features = format.readFeatures(data, {
+            featureProjection: "EPSG:3857",
+          });
+          landfillSource.addFeatures(features);
+          if (features.length > 0) {
+            const extent = landfillSource.getExtent();
+            map
+              .getView()
+              .fit(extent, { padding: [50, 50, 50, 50], duration: 1000 });
+          }
+          updateStats();
+        } catch (error) {
+          console.error("Ошибка:", error);
+          alert(
+            "Не удалось загрузить данные свалок. Проверьте:\n1. Наличие файла landfills.geojson\n2. Корректность геометрии полигонов\n3. Формат координат (долгота, широта)"
+          );
+        }
+      }
+      async function detectFileEncoding(fileUrl) {
+        const response = await fetch(fileUrl);
+        const buffer = await response.arrayBuffer();
+        const detected = jschardet.detect(buffer);
+        return detected.encoding;
+      }
+      async function loadPoints() {
+        try {
+          const response = await fetch("tochka.geojson");
+          detectFileEncoding("tochka.geojson").then((encoding) =>
+            console.log("Определенная кодировка:", encoding)
+          );
+          if (!response.ok) throw new Error("Ошибка загрузки файла");
+          const data = await response.json();
+          const format = new ol.format.GeoJSON();
+          const features = format.readFeatures(data, {
+            featureProjection: "EPSG:3857",
+          });
+          pointsSource.addFeatures(features);
+          if (features.length > 0) {
+            const extent = pointsSource.getExtent();
+            map
+              .getView()
+              .fit(extent, { padding: [50, 50, 50, 50], duration: 1000 });
+          }
+          updateStats();
+        } catch (error) {
+          console.error("Ошибка:", error);
+          alert(
+            "Не удалось загрузить точки. Проверьте наличие файла points.geojson"
+          );
+        }
+      }
+      // Обработчик кликов
+      map.on("click", (evt) => {
+        let feature = null;
+        map.forEachFeatureAtPixel(evt.pixel, (f) => {
+          if (landfillVisible && f.getGeometry().getType() === "Polygon") {
+            feature = f;
+          } else if (pointsVisible && f.getGeometry().getType() === "Point") {
+            feature = f;
+          }
+        });
+        if (feature) {
+          const props = feature.getProperties();
+          console.log(feature);
+          console.log(feature.getProperties());
+          const geomType = feature.getGeometry().getType();
+          let coords = evt.coordinate;
+          if (geomType === "Polygon") {
+            coords = feature.getGeometry().getCoordinates()[0][0];
+          }
+
+          popup.setPosition(coords);
+          document.getElementById("popup-content").innerHTML = `
     <div class="popup-image-container">
-        <img src="${props.photo || 'images/placeholder.jpg'}" 
+        <img src="${props.photo || "images/placeholder.jpg"}" 
              onerror="this.src='images/placeholder.jpg'" 
              class="popup-image">
     </div>
-    <strong>Название:</strong> ${props.name || 'Нет данных'}<br>
-    <strong>Тип:</strong> ${props.type || 'Нет данных'}<br>
-    <strong>Площадь:</strong> ${props.area ? props.area : '0'} м²<br>
-    <strong>Дата обнаружения:</strong> ${props.dateOfFind || 'Не указана'}<br>
-    <strong>Дата ликвидации:</strong> ${props.dateOfLi || 'Не ликвидирована'}
+    <strong>Название:</strong> ${props.name || "Нет данных"}<br>
+    <strong>Тип:</strong> ${props.type || "Нет данных"}<br>
+    <strong>Площадь:</strong> ${props.area ? props.area : "0"} м²<br>
+    <strong>Дата обнаружения:</strong> ${props.dateOfFind || "Не указана"}<br>
+    <strong>Дата ликвидации:</strong> ${props.dateOfLi || "Не ликвидирована"}
 `;
-            } else {
-                popup.setPosition(undefined);
-            }
+        } else {
+          popup.setPosition(undefined);
+        }
+      });
+      // Функции интерфейса
+      function fullscreenMap() {
+        if (!document.fullscreenElement) {
+          document.getElementById("map").requestFullscreen();
+        } else {
+          document.exitFullscreen();
+        }
+      }
+      function toggleInfo() {
+        const panel = document.getElementById("infoPanel");
+        panel.style.display = panel.style.display === "none" ? "block" : "none";
+      }
+      function showReportForm() {
+        const modal = new bootstrap.Modal(
+          document.getElementById("reportModal")
+        );
+        modal.show();
+      }
+      function toggleLayer(layerType) {
+        const btn = document.querySelector(
+          `.layer-btn:has(svg.bi-${
+            layerType === "landfill" ? "trash3" : "geo-alt-fill"
+          })`
+        );
+
+        if (layerType === "landfill") {
+          landfillVisible = !landfillVisible;
+          landfillLayer.setVisible(landfillVisible);
+          btn.classList.toggle("active");
+          if (landfillVisible && !landfillLoaded) {
+            loadLandfills();
+            landfillLoaded = true;
+          }
+        } else {
+          pointsVisible = !pointsVisible;
+          pointsLayer.setVisible(pointsVisible);
+          btn.classList.toggle("active");
+          if (pointsVisible && !pointsLoaded) {
+            loadPoints();
+            pointsLoaded = true;
+          }
+        }
+        updateFilter();
+      }
+
+      document
+        .getElementById("statusFilter")
+        .addEventListener("change", updateFilter);
+
+      // Новая функция проверки статуса
+      function checkStatus(feature, filter) {
+        if (filter === "") return true;
+
+        const isLiquidated = !!feature.get("dateOfLi");
+        return (
+          (filter === "active" && !isLiquidated) ||
+          (filter === "liquidated" && isLiquidated)
+        );
+      }
+      document
+        .getElementById("photoInput")
+        .addEventListener("change", function (e) {
+          const file = e.target.files[0];
+          const previewContainer = document.getElementById(
+            "photoPreviewContainer"
+          );
+          const preview = document.getElementById("photoPreview");
+
+          if (file && file.type.startsWith("image/")) {
+            const reader = new FileReader();
+
+            reader.onload = function (e) {
+              preview.src = e.target.result;
+              previewContainer.style.display = "block";
+            };
+
+            reader.readAsDataURL(file);
+          } else {
+            preview.src = "";
+            previewContainer.style.display = "none";
+          }
         });
-        // Функции интерфейса
-        function fullscreenMap() {
-            if (!document.fullscreenElement) {
-                document.getElementById('map').requestFullscreen();
-            } else {
-                document.exitFullscreen();
-            }
-        }
-        function toggleInfo() {
-            const panel = document.getElementById('infoPanel');
-            panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
-        }
-        function showReportForm() {
-            const modal = new bootstrap.Modal(document.getElementById('reportModal'));
-            modal.show();
-        }
-        function toggleLayer(layerType) {
-            const btn = document.querySelector(`.layer-btn:has(svg.bi-${layerType === 'landfill' ? 'trash3' : 'geo-alt-fill'})`);
-            
-            if (layerType === 'landfill') {
-                landfillVisible = !landfillVisible;
-                landfillLayer.setVisible(landfillVisible);
-                btn.classList.toggle('active');
-                if (landfillVisible && !landfillLoaded) {
-                    loadLandfills();
-                    landfillLoaded = true;
-                }
-            } else {
-                pointsVisible = !pointsVisible;
-                pointsLayer.setVisible(pointsVisible);
-                btn.classList.toggle('active');
-                if (pointsVisible && !pointsLoaded) {
-                    loadPoints();
-                    pointsLoaded = true;
-                }
-            }
-            updateFilter();
-        }
+      document
+        .getElementById("osmRadio")
+        .addEventListener("change", function () {
+          osmLayer.setVisible(true);
+          satelliteLayer.setVisible(false);
+        });
 
-        document.getElementById('statusFilter').addEventListener('change', updateFilter);
-
-
-
-// Новая функция проверки статуса
-function checkStatus(feature, filter) {
-    if (filter === '') return true;
-    
-    const isLiquidated = !!feature.get('dateOfLi');
-    return (filter === 'active' && !isLiquidated) || 
-           (filter === 'liquidated' && isLiquidated);
-}
-document.getElementById('photoInput').addEventListener('change', function(e) {
-    const file = e.target.files[0];
-    const previewContainer = document.getElementById('photoPreviewContainer');
-    const preview = document.getElementById('photoPreview');
-    
-    if (file && file.type.startsWith('image/')) {
-        const reader = new FileReader();
-        
-        reader.onload = function(e) {
-            preview.src = e.target.result;
-            previewContainer.style.display = 'block';
-        };
-        
-        reader.readAsDataURL(file);
-    } else {
-        preview.src = '';
-        previewContainer.style.display = 'none';
-    }
-});
-document.getElementById('osmRadio').addEventListener('change', function() {
-    osmLayer.setVisible(true);
-    satelliteLayer.setVisible(false);
-});
-
-document.getElementById('satelliteRadio').addEventListener('change', function() {
-    osmLayer.setVisible(false);
-    satelliteLayer.setVisible(true);
-});
+      document
+        .getElementById("satelliteRadio")
+        .addEventListener("change", function () {
+          osmLayer.setVisible(false);
+          satelliteLayer.setVisible(true);
+        });
     </script>
-</body>
+  </body>
 </html>
