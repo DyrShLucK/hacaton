@@ -103,6 +103,7 @@
         color: #084298;
         border-radius: 10px;
         padding: 12px;
+        margin-top: 12px;
       }
       #photoPreview {
         object-fit: contain;
@@ -137,7 +138,7 @@
     <!-- Навигационная панель -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container-fluid">
-        <span class="navbar-brand">ЭкоМониторинг ХМАО</span>
+        <span class="navbar-brand">ЭкоМониторинг Ханты-Мансийского автономного округа</span>
         <div class="d-flex align-items-center">
           <div class="me-3">
             <button
@@ -239,6 +240,13 @@
           <option value="Лесопиление">Лесопиление</option>
         </select>
       </div>
+      <div class="mb-3">
+        <label>Площадь (м²)</label>
+        <div class="d-flex gap-2">
+          <input type="number" class="form-control" id="minArea" placeholder="Мин">
+          <input type="number" class="form-control" id="maxArea" placeholder="Макс">
+        </div>
+      </div>
       <div class="btn-group w-100 mb-3" role="group">
         <input
           type="radio"
@@ -261,6 +269,9 @@
           >Спутник</label
         >
       </div>
+      <button class="btn btn-success w-100 mt-3" onclick="exportToCSV()">
+        Экспорт в CSV
+      </button>
       <div class="alert alert-primary" role="alert">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -412,6 +423,8 @@
       </div>
     </div>
     <script>
+      document.getElementById('minArea').addEventListener('input', updateFilter);
+      document.getElementById('maxArea').addEventListener('input', updateFilter);
       // Инициализация карты
       const osmLayer = new ol.layer.Tile({
         source: new ol.source.OSM(),
@@ -508,6 +521,7 @@
         input.addEventListener("change", function () {
           osmLayer.setVisible(this.id === "osmRadio");
           satelliteLayer.setVisible(this.id === "satelliteRadio");
+ 
         });
       });
       // Попап
@@ -551,38 +565,42 @@
         .getElementById("statusFilter")
         .addEventListener("change", updateFilter);
 
-      function updateFilter() {
-        const typeFilter = document.getElementById("typeFilter").value;
-        const statusFilter = document.getElementById("statusFilter").value;
+        function updateFilter() {
+  const typeFilter = document.getElementById('typeFilter').value;
+  const statusFilter = document.getElementById('statusFilter').value;
+  const minArea = parseFloat(document.getElementById('minArea').value) || 0;
+  const maxArea = parseFloat(document.getElementById('maxArea').value) || Infinity;
 
-        // Для полигональных свалок
-        landfillSource.forEachFeature((feature) => {
-          const showType =
-            typeFilter === "" || feature.get("type") === typeFilter;
-          const showStatus = checkStatus(feature, statusFilter);
+  // Для полигональных свалок
+  landfillSource.forEachFeature((feature) => {
+    const showType = typeFilter === "" || feature.get("type") === typeFilter;
+    const showStatus = checkStatus(feature, statusFilter);
+    const area = feature.get('area') || 0;
+    const showArea = area >= minArea && area <= maxArea;
+    
+    feature.setStyle(
+      landfillVisible && showType && showStatus && showArea
+        ? landfillLayer.getStyle()(feature)
+        : transparentPolygonStyle
+    );
+  });
 
-          feature.setStyle(
-            landfillVisible && showType && showStatus
-              ? landfillLayer.getStyle()(feature)
-              : transparentPolygonStyle
-          );
-        });
+  // Для точечных объектов (если нужно применять площадь и к ним)
+  pointsSource.forEachFeature((feature) => {
+    const showType = typeFilter === "" || feature.get("type") === typeFilter;
+    const showStatus = checkStatus(feature, statusFilter);
+    const area = feature.get('area') || 0;
+    const showArea = area >= minArea && area <= maxArea;
+    
+    feature.setStyle(
+      pointsVisible && showType && showStatus && showArea
+        ? pointsLayer.getStyle()(feature)
+        : transparentStyle
+    );
+  });
 
-        // Для точечных объектов
-        pointsSource.forEachFeature((feature) => {
-          const showType =
-            typeFilter === "" || feature.get("type") === typeFilter;
-          const showStatus = checkStatus(feature, statusFilter);
-
-          feature.setStyle(
-            pointsVisible && showType && showStatus
-              ? pointsLayer.getStyle()(feature)
-              : transparentStyle
-          );
-        });
-
-        updateStats();
-      }
+  updateStats();
+}
 
       // Новая функция проверки статуса
       function checkStatus(feature, filter) {
@@ -596,34 +614,27 @@
       }
       // Функция обновления статистики
       function updateStats() {
-        let count = 0;
-        const statusFilter = document.getElementById("statusFilter").value;
-        const typeFilter = document.getElementById("typeFilter").value; // Добавить эту строку
+  const typeFilter = document.getElementById('typeFilter').value;
+  const statusFilter = document.getElementById('statusFilter').value;
+  const minArea = parseFloat(document.getElementById('minArea').value) || 0;
+  const maxArea = parseFloat(document.getElementById('maxArea').value) || Infinity;
 
-        if (landfillVisible) {
-          const filtered = landfillSource
-            .getFeatures()
-            .filter(
-              (f) =>
-                (typeFilter === "" || f.get("type") === typeFilter) &&
-                checkStatus(f, statusFilter)
-            );
-          count += filtered.length;
-        }
+  const countFeatures = (source) => {
+    return source.getFeatures().filter(f => {
+      return (
+        (typeFilter === "" || f.get("type") === typeFilter) &&
+        checkStatus(f, statusFilter) &&
+        (f.get('area') || 0) >= minArea &&
+        (f.get('area') || 0) <= maxArea
+      );
+    }).length;
+  };
 
-        if (pointsVisible) {
-          const filtered = pointsSource
-            .getFeatures()
-            .filter(
-              (f) =>
-                (typeFilter === "" || f.get("type") === typeFilter) &&
-                checkStatus(f, statusFilter)
-            );
-          count += filtered.length;
-        }
-
-        document.getElementById("totalObjects").innerText = count;
-      }
+  const landfillCount = landfillVisible ? countFeatures(landfillSource) : 0;
+  const pointsCount = pointsVisible ? countFeatures(pointsSource) : 0;
+  
+  document.getElementById('totalObjects').innerText = landfillCount + pointsCount;
+}
       // Обработчики элементов управления
       document
         .getElementById("typeFilter")
@@ -917,6 +928,110 @@ function getEquipmentRecommendation(category, area) {
 
   return `(${category} отходы) требуется: ${equipment}`;
 }
+function exportToCSV() {
+  const typeFilter = document.getElementById('typeFilter').value;
+  const statusFilter = document.getElementById('statusFilter').value;
+  const minArea = parseFloat(document.getElementById('minArea').value) || 0;
+  const maxArea = parseFloat(document.getElementById('maxArea').value) || Infinity;
+  
+  const features = [];
+  
+  // Собираем полигональные свалки
+  if (landfillVisible) {
+    landfillSource.getFeatures().forEach(feature => {
+      const showType = typeFilter === "" || feature.get("type") === typeFilter;
+      const showStatus = checkStatus(feature, statusFilter);
+      const area = feature.get('area') || 0;
+      const showArea = area >= minArea && area <= maxArea;
+      
+      if (showType && showStatus && showArea) {
+        const props = feature.getProperties();
+        const geometry = feature.getGeometry();
+        const coordinates = geometry.getCoordinates()[0];
+        
+        features.push({
+          type: 'Полигон',
+          name: props.name || 'Без названия',
+          category: props.type,
+          area: props.area || 0,
+          status: props.dateOfLi ? 'Ликвидирована' : 'Активна',
+          coordinates: coordinates.map(c => ol.proj.toLonLat(c).join(', ')).join('; ')
+        });
+      }
+    });
+  }
+  
+  // Собираем точечные объекты
+  if (pointsVisible) {
+  pointsSource.getFeatures().forEach(feature => {
+    const showType = typeFilter === "" || feature.get("type") === typeFilter;
+    const showStatus = checkStatus(feature, statusFilter);
+    const area = feature.get('area') || 0;
+    const showArea = area >= minArea && area <= maxArea;
+
+    if (showType && showStatus && showArea) {
+      const props = feature.getProperties();
+      const geometry = feature.getGeometry();
+      
+      let coordinatesStr = 'N/A';
+      if (geometry && geometry.getType() === 'Point') {
+        const coord = ol.proj.toLonLat(geometry.getCoordinates());
+        if (Array.isArray(coord) && coord.length >= 2) {
+          coordinatesStr = `${coord[0].toFixed(6)}, ${coord[1].toFixed(6)}`;
+        }
+      }
+
+      features.push({
+        type: 'Точка',
+        name: props.name || 'Без названия',
+        category: props.type,
+        area: props.area || 0,
+        status: props.dateOfLi ? 'Ликвидирована' : 'Активна',
+        coordinates: coordinatesStr
+      });
+    }
+  });
+}
+
+  if (features.length === 0) {
+    alert('Нет данных для экспорта');
+    return;
+  }
+
+  // Формируем CSV
+  const headers = [
+    'Тип объекта',
+    'Название',
+    'Категория',
+    'Площадь (м²)',
+    'Статус',
+    'Координаты (долгота, широта)'
+  ];
+  
+  const csvRows = [
+    headers.join(';'),
+    ...features.map(item => [
+      item.type,
+      item.name,
+      item.category,
+      item.area,
+      item.status,
+      item.coordinates
+    ].join(';'))
+  ];
+  
+  const csvContent = csvRows.join('\n');
+  const blob = new Blob([csvContent], { type: 'text/csv;charset=windows-1251;' });
+  
+  // Создаем ссылку для скачивания
+  const link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = `export_${new Date().toISOString().slice(0,10)}.csv`;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
     </script>
   </body>
 </html>
