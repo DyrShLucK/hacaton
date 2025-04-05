@@ -52,7 +52,7 @@
         padding: 15px;
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        width: 400px;
+        width: 420px;
       }
       .legend {
         position: absolute;
@@ -125,6 +125,12 @@
         height: 100%;
         object-fit: cover;
       }
+      .input-group {
+  flex-wrap: nowrap;
+}
+.input-group .form-control {
+  flex: 1 1 auto;
+}
     </style>
   </head>
   <body>
@@ -320,15 +326,31 @@
           </div>
           <div class="modal-body">
             <form>
-              <div class="mb-3">
-                <label>Местоположение</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="reportLocation"
-                  readonly
-                />
-              </div>
+              
+                <div class="mb-3">
+                  <label>Местоположение</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control" id="reportLocation" readonly>
+                    <button class="btn btn-outline-secondary" type="button" onclick="getLocation()">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                        <path d="M12.166 8.94c-.524 0-1.005.286-1.346.759-.34.473-.454 1.043-.454 1.71 0 1.13.654 2.097 1.66 2.757a4.113 4.113 0 0 1-.524-2.273c0-.81.402-1.55.984-2.095zm-6.317 0c-.524 0-1.005.286-1.346.759-.34.473-.454 1.043-.454 1.71 0 1.13.654 2.097 1.66 2.757a4.113 4.113 0 0 1-.524-2.273c0-.81.402-1.55.984-2.095z"/>
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label>Или введите координаты вручную:</label>
+                  <div class="row g-2">
+                    <div class="col">
+                      <input type="number" class="form-control" id="coordX" placeholder="X (Долгота)">
+                    </div>
+                    <div class="col">
+                      <input type="number" class="form-control" id="coordY" placeholder="Y (Широта)">
+                    </div>
+                  </div>
+                </div>
+
               <div class="mb-3">
                 <label>Тип отходов</label>
                 <select class="form-select" id="reportType">
@@ -684,11 +706,11 @@
           if (geomType === "Polygon") {
             coords = feature.getGeometry().getCoordinates()[0][0];
           }
-
+        const photo = getUrlOfPhoto(props.type)
           popup.setPosition(coords);
           document.getElementById("popup-content").innerHTML = `
     <div class="popup-image-container">
-        <img src="${props.photo || "images/placeholder.jpg"}" 
+        <img src="${photo || "images/placeholder.jpg"}" 
              onerror="this.src='images/placeholder.jpg'" 
              class="popup-image">
     </div>
@@ -696,7 +718,9 @@
     <strong>Тип:</strong> ${props.type || "Нет данных"}<br>
     <strong>Площадь:</strong> ${props.area ? props.area : "0"} м²<br>
     <strong>Дата обнаружения:</strong> ${props.dateOfFind || "Не указана"}<br>
-    <strong>Дата ликвидации:</strong> ${props.dateOfLi || "Не ликвидирована"}
+    <strong>Дата ликвидации:</strong> ${props.dateOfLi || "Не ликвидирована"}<br>
+    <strong>Для уборки:</strong> ${getEquipmentRecommendation(props.type, props.area) || "Не ликвидирована"}<br>
+    ${feature.getGeometry().getType() === "Polygon" ? "<strong>Примерное растояние до ближайшей ТБО:</strong> 80км" : ""}  
 `;
         } else {
           popup.setPosition(undefined);
@@ -797,6 +821,102 @@
           osmLayer.setVisible(false);
           satelliteLayer.setVisible(true);
         });
+        function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const coords = ol.proj.fromLonLat([
+          position.coords.longitude,
+          position.coords.latitude
+        ]);
+        document.getElementById('reportLocation').value = 
+          `X: ${coords[0].toFixed(2)}, Y: ${coords[1].toFixed(2)}`;
+        document.getElementById('coordX').value = coords[0].toFixed(2);
+        document.getElementById('coordY').value = coords[1].toFixed(2);
+      },
+      (error) => {
+        alert('Ошибка получения геолокации: ' + error.message);
+      }
+    );
+  } else {
+    alert("Геолокация не поддерживается вашим браузером");
+  }
+}
+
+function getUrlOfPhoto(category){
+  switch(category) {
+    case 'Бытовые':
+      return "https://dji-blog.ru/wp-content/uploads/2021/01/svalka.jpg"
+      
+    case 'Строительные':
+      
+      return "https://m.asninfo.ru/images/techmats/82d798d0/38e7c9741179ef1946c1d43e.jpg"
+      
+    case 'Промышленные':
+      
+      return "https://stroj-musor.moscow/wp-content/uploads/2021/10/promyshlennye-othody-4-1024x819.jpg"
+      
+    case 'Лесопиление':
+      
+      return "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLVLLNi9Hs35tZqXwId4tcvh2pK3r7Mrb05g&s"
+      
+    default:
+      return "https://dji-blog.ru/wp-content/uploads/2021/01/svalka.jpg";
+  }
+}
+
+function getEquipmentRecommendation(category, area) {
+  // Преобразуем в целое число с округлением вверх
+  area = Math.ceil(parseFloat(area));
+  
+  if (isNaN(area) || area <= 1) {
+    return 'Некорректная площадь';
+  }
+
+  const minTrucks = 1;
+  const minWorkers = 1;
+  let trucks, workers, equipment;
+
+  switch(category) {
+    case 'Бытовые':
+      trucks = Math.max(minTrucks, Math.ceil(area / 500));
+      workers = Math.max(minWorkers, Math.ceil(area / 50));
+      equipment = `${trucks} мусоровоз(ов) и ${workers} рабочих`;
+      break;
+      
+    case 'Строительные':
+      const excavators = Math.max(1, Math.ceil(area / 1000));
+      const dumpTrucks = Math.max(1, Math.ceil(area / 500));
+      workers = Math.max(1, Math.ceil(area / 100));
+      equipment = `${excavators} экскаватор(ов), ${dumpTrucks} самосвал(ов), ${workers} рабочих`;
+      break;
+      
+    case 'Промышленные':
+      const bulldozers = Math.max(1, Math.ceil(area / 2000));
+      const specialEquipment = Math.max(1, Math.ceil(area / 1500));
+      workers = Math.max(2, Math.ceil(area / 80));
+      equipment = `${specialEquipment} спецмашины, ${bulldozers} бульдозер(ов), ${workers} рабочих`;
+      break;
+      
+    case 'Лесопиление':
+      const chippers = Math.max(1, Math.ceil(area / 1500));
+      const loaders = Math.max(1, Math.ceil(area / 1000));
+      workers = Math.max(1, Math.ceil(area / 120));
+      equipment = `${chippers} измельчителей, ${loaders} погрузчик(ов), ${workers} рабочих`;
+      break;
+      
+    default:
+      return 'Неизвестная категория';
+  }
+
+  // Корректировка для малых площадей (1-50 м²)
+  if (area < 50) {
+    return `(${category} отходы) требуется: 
+           1 единицы техники и 2 человека`;
+  }
+
+  return `(${category} отходы) требуется: ${equipment}`;
+}
     </script>
   </body>
 </html>
