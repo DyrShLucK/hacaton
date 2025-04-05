@@ -179,16 +179,13 @@
                 <option value="Лесопиление">Лесопиление</option>
             </select>
         </div>
-        <div class="me-3">
-            <div class="btn-group">
-                <button class="btn btn-outline-light active" onclick="switchBaseLayer('osm')">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map" viewBox="0 0 16 16"></svg>
-                </button>
-                <button class="btn btn-outline-light" onclick="switchBaseLayer('satellite')">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16"></svg>
-                </button>
-            </div>
-        </div>
+        <div class="btn-group w-100 mb-3" role="group">
+            <input type="radio" class="btn-check" name="baseLayer" id="osmRadio" autocomplete="off" checked>
+            <label class="btn btn-outline-secondary w-50" for="osmRadio">OSM</label>
+            
+            <input type="radio" class="btn-check" name="baseLayer" id="satelliteRadio" autocomplete="off">
+            <label class="btn btn-outline-secondary w-50" for="satelliteRadio">Спутник</label>
+          </div>
         <div class="alert alert-primary" role="alert">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle-fill me-2" viewBox="0 0 16 16">
                 <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767zM8 5.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 5.5m0 4a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 9.5"/>
@@ -273,20 +270,25 @@
     </div>
     <script>
         // Инициализация карты
-        const map = new ol.Map({
-            target: 'map',
-            layers: [
-                new ol.layer.Tile({
-                    source: new ol.source.OSM()
-                })
-            ],
-            view: new ol.View({
-                center: ol.proj.fromLonLat([76.0, 61.0]),
-                zoom: 7
-            })
-        });
+        const osmLayer = new ol.layer.Tile({
+  source: new ol.source.OSM(),
+  zIndex: 0
+});
+
+const satelliteLayer = new ol.layer.Tile({
+  source: new ol.source.XYZ({
+    url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+    attributions: 'Tiles © Esri'
+  }),
+  visible: false,
+  zIndex: 0
+});
+
+// Инициализация карты
+
         // Векторные слои
         const landfillSource = new ol.source.Vector();
+        const pointsSource = new ol.source.Vector();
         const landfillLayer = new ol.layer.Vector({
             source: landfillSource,
             style: (feature) => {
@@ -315,7 +317,9 @@
                 });
             }
         });
-        const pointsSource = new ol.source.Vector();
+ 
+
+        
         const pointsLayer = new ol.layer.Vector({
             source: pointsSource,
             style: 
@@ -352,8 +356,25 @@
             
             
         });
-        map.addLayer(landfillLayer);
-        map.addLayer(pointsLayer);
+        const map = new ol.Map({
+  target: 'map',
+  layers: [
+    osmLayer,
+    satelliteLayer,
+    landfillLayer,
+    pointsLayer
+  ],
+  view: new ol.View({
+    center: ol.proj.fromLonLat([76.0, 61.0]),
+    zoom: 7
+  })
+});
+document.querySelectorAll('input[name="baseLayer"]').forEach(input => {
+    input.addEventListener('change', function() {
+        osmLayer.setVisible(this.id === 'osmRadio');
+        satelliteLayer.setVisible(this.id === 'satelliteRadio');
+    });
+});
         // Попап
         const popup = new ol.Overlay({
             element: document.getElementById('popup'),
@@ -603,6 +624,15 @@ document.getElementById('photoInput').addEventListener('change', function(e) {
         preview.src = '';
         previewContainer.style.display = 'none';
     }
+});
+document.getElementById('osmRadio').addEventListener('change', function() {
+    osmLayer.setVisible(true);
+    satelliteLayer.setVisible(false);
+});
+
+document.getElementById('satelliteRadio').addEventListener('change', function() {
+    osmLayer.setVisible(false);
+    satelliteLayer.setVisible(true);
 });
     </script>
 </body>
